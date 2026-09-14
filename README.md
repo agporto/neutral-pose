@@ -170,5 +170,4 @@ reconstructed 1.6.x line is documented in [docs/reconstruction.md](docs/reconstr
 
 ## License
 
-**To be decided by the maintainers before public release.** The `license` field
-in `pyproject.toml` and the `LICENSE` file are placeholders.
+BSD-2
