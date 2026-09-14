@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neutral-pose"
+dynamic = ["version"]
+description = "Estimate an osteological neutral articulation of a vertebral column from segmented meshes and landmarks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "TBD" }
+authors = [{ name = "Neutral Pose contributors" }]
+keywords = ["morphometrics", "vertebrae", "3D Slicer", "rigid registration", "osteology", "VTK"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+  "Topic :: Scientific/Engineering :: Image Processing",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "vtk>=9.2",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7",
+  "pytest-xdist>=3",
+  "ruff>=0.5",
+  "build>=1.0",
+]
+
+[project.scripts]
+neutral-pose-auto = "neutral_pose.auto:main"
+neutral-pose = "neutral_pose.core:main"
+
+[project.urls]
+Documentation = "https://github.com/OWNER/neutral-pose#readme"
+Changelog = "https://github.com/OWNER/neutral-pose/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = { attr = "neutral_pose.version.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+addopts = "-q"
+filterwarnings = [
+  "error::DeprecationWarning:neutral_pose.*",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+src = ["src", "tests"]
+extend-exclude = ["validation"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "NPY"]
+ignore = [
+  "E741",   # I, O are conventional index/owner arrays in the geometry code
+  "E731",   # a few short local lambdas in the fitting code read better than nested defs
+  "B905",   # zip(strict=) would change semantics where length mismatch is handled explicitly
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501", "F841"]
+"scripts/*" = ["E402", "E501"]
+"validation/*" = ["E402"]
+
+[tool.ruff.format]
+quote-style = "double"

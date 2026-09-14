@@ -1,0 +1,174 @@
+{
+  "case": "ouroborus",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/61a714cf80b6/neutral_pose_1.6.2/neutral_pose_auto.py",
+    "/workspace/scratch/61a714cf80b6/reconstruct_v161/recovered_Ouroborus_input.zip",
+    "--out",
+    "/workspace/scratch/61a714cf80b6/rhineura_v162/final_ouroborus"
+  ],
+  "exit_code": 0,
+  "seconds": 196.47326315699866,
+  "source_hashes": {
+    "neutral_pose.py": "ef23fdffc258ee99ea7b7108a2f8fd45484eaaacadda1f2108421e8b44e5e591",
+    "neutral_pose_anatomy.py": "fdad56398cd07451ad74c604c1766141ff4238cbc82ce72be1ed8d32200583f9",
+    "neutral_pose_auto.py": "2076b98a7ec34ab053e251a0002ae116fb4a45e9e4765cd23a19db5cad271f65",
+    "neutral_pose_contacts.py": "45a6fb4a8cfed4e41ef7a0f3d668ad3f9291b92f3df881fce338599afb75878e",
+    "neutral_pose_landmarks.py": "5e00f7df61ffaa3cefb492d8b8743eb469371dad2f1fe3c6c39fb090058d8495",
+    "neutral_pose_support.py": "9b44adbd8010f9e3c599e4e853ae74c353258edd43834b5692a52d6b5c378612",
+    "validate_recovery.py": "2adb4c50e336449fa3687199fbf7fa0d8b4983c0dc7615e6fc728497f3796e3b"
+  },
+  "source_unchanged": true,
+  "exports": {
+    "bones": 21,
+    "landmarks": 588,
+    "max_vertex_matrix_error_mm": 2.9103830456733704e-11,
+    "max_landmark_matrix_error_mm": 0.0,
+    "first_bone_fixed": true,
+    "proper_rigid_transforms": true,
+    "topology_preserved": true,
+    "landmark_labels_and_order_preserved": true,
+    "double_ply_equals_vtp": true,
+    "combined_vtp_equals_concatenated_individuals": true,
+    "relative_transforms_verified": true,
+    "maximum_lateral_center_offset_mm": 3.308146536088232e-11,
+    "sagittal_reference_joints": 2,
+    "penetration_exceeds_tolerance": [],
+    "contacts_below_support_threshold": [],
+    "nonadjacent_intersections": 0,
+    "unverified_mesh_signs": 14,
+    "status": "needs_review",
+    "records": [
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_01-C3",
+        "vertices": 24816,
+        "triangles": 49626,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_02-C4",
+        "vertices": 27835,
+        "triangles": 55670,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_03-C5",
+        "vertices": 26504,
+        "triangles": 53004,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_04-C6",
+        "vertices": 27012,
+        "triangles": 54024,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_05-C7",
+        "vertices": 28558,
+        "triangles": 57112,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_06-T1",
+        "vertices": 29939,
+        "triangles": 59882,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_07-T2",
+        "vertices": 28342,
+        "triangles": 56678,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_08-T3",
+        "vertices": 30930,
+        "triangles": 61802,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_09-T4",
+        "vertices": 29403,
+        "triangles": 58756,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_10-T5",
+        "vertices": 33821,
+        "triangles": 67602,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_11-T6",
+        "vertices": 31117,
+        "triangles": 62222,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_12-T7",
+        "vertices": 33107,
+        "triangles": 66162,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_13-T8",
+        "vertices": 32478,
+        "triangles": 64896,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_14-T9",
+        "vertices": 35071,
+        "triangles": 70132,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_15-L1",
+        "vertices": 34104,
+        "triangles": 68204,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_16-L2",
+        "vertices": 35563,
+        "triangles": 71126,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_17-L3",
+        "vertices": 34404,
+        "triangles": 68796,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_18-L4",
+        "vertices": 34166,
+        "triangles": 68332,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_19-L5",
+        "vertices": 33818,
+        "triangles": 67636,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_20-L6",
+        "vertices": 34631,
+        "triangles": 69262,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Cordyludae_Ouroborus_YPM_21-L7",
+        "vertices": 32875,
+        "triangles": 65742,
+        "landmarks": 28
+      }
+    ]
+  },
+  "v1_6_1_comparison": {
+    "transforms_bitwise_equal": true,
+    "max_matrix_difference": 0.0
+  }
+}

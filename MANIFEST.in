@@ -1,0 +1,10 @@
+include README.md CHANGELOG.md CONTRIBUTING.md CITATION.cff LICENSE
+include pyproject.toml
+recursive-include docs *.md
+recursive-include examples *.json
+recursive-include tests *.py
+# The validation record (logs, receipts, PNGs) documents specific release runs
+# and is kept in the repository, not in distributed packages.
+prune validation
+prune scripts
+global-exclude __pycache__ *.py[cod]

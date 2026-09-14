@@ -1,0 +1,814 @@
+{
+  "case": "rhineura",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/61a714cf80b6/neutral_pose_1.6.2/neutral_pose_auto.py",
+    "/workspace/scratch/61a714cf80b6/upload/thinruts.zip",
+    "--out",
+    "/workspace/scratch/61a714cf80b6/rhineura_v162/final_rhineura"
+  ],
+  "exit_code": 0,
+  "seconds": 1031.3534738849994,
+  "source_hashes": {
+    "neutral_pose.py": "ef23fdffc258ee99ea7b7108a2f8fd45484eaaacadda1f2108421e8b44e5e591",
+    "neutral_pose_anatomy.py": "fdad56398cd07451ad74c604c1766141ff4238cbc82ce72be1ed8d32200583f9",
+    "neutral_pose_auto.py": "2076b98a7ec34ab053e251a0002ae116fb4a45e9e4765cd23a19db5cad271f65",
+    "neutral_pose_contacts.py": "45a6fb4a8cfed4e41ef7a0f3d668ad3f9291b92f3df881fce338599afb75878e",
+    "neutral_pose_landmarks.py": "5e00f7df61ffaa3cefb492d8b8743eb469371dad2f1fe3c6c39fb090058d8495",
+    "neutral_pose_support.py": "9b44adbd8010f9e3c599e4e853ae74c353258edd43834b5692a52d6b5c378612",
+    "validate_recovery.py": "2adb4c50e336449fa3687199fbf7fa0d8b4983c0dc7615e6fc728497f3796e3b"
+  },
+  "source_unchanged": true,
+  "exports": {
+    "bones": 121,
+    "landmarks": 3388,
+    "max_vertex_matrix_error_mm": 4.263256414560601e-14,
+    "max_landmark_matrix_error_mm": 0.0,
+    "first_bone_fixed": true,
+    "proper_rigid_transforms": true,
+    "topology_preserved": true,
+    "landmark_labels_and_order_preserved": true,
+    "double_ply_equals_vtp": true,
+    "combined_vtp_equals_concatenated_individuals": true,
+    "relative_transforms_verified": true,
+    "maximum_lateral_center_offset_mm": 3.941153079022268e-14,
+    "sagittal_reference_joints": 22,
+    "penetration_exceeds_tolerance": [
+      33,
+      62,
+      67,
+      68
+    ],
+    "contacts_below_support_threshold": [
+      14,
+      22,
+      27,
+      34,
+      36,
+      42,
+      52,
+      57,
+      59,
+      60,
+      63,
+      64,
+      66,
+      73,
+      82,
+      85,
+      86,
+      93,
+      96,
+      100,
+      101,
+      102,
+      110,
+      112,
+      115,
+      116,
+      120
+    ],
+    "nonadjacent_intersections": 0,
+    "unverified_mesh_signs": 6,
+    "status": "needs_review",
+    "records": [
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_001-C3",
+        "vertices": 12430,
+        "triangles": 24860,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_002-C4",
+        "vertices": 12049,
+        "triangles": 24098,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_003-C5",
+        "vertices": 11994,
+        "triangles": 23988,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_004-C6",
+        "vertices": 11756,
+        "triangles": 23504,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_005-C7",
+        "vertices": 11726,
+        "triangles": 23446,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_006-T1",
+        "vertices": 11824,
+        "triangles": 23652,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_007-T2",
+        "vertices": 11396,
+        "triangles": 22794,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_008-T1",
+        "vertices": 11153,
+        "triangles": 22306,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_009-T4",
+        "vertices": 11037,
+        "triangles": 22074,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_010-T5",
+        "vertices": 10848,
+        "triangles": 21696,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_011-T6",
+        "vertices": 10669,
+        "triangles": 21342,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_012-T7",
+        "vertices": 10663,
+        "triangles": 21326,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_013-T8",
+        "vertices": 10149,
+        "triangles": 20302,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_014-T9",
+        "vertices": 10286,
+        "triangles": 20572,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_015-T10",
+        "vertices": 9911,
+        "triangles": 19822,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_016-T11",
+        "vertices": 10195,
+        "triangles": 20390,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_017-T12",
+        "vertices": 9923,
+        "triangles": 19846,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_018-T13",
+        "vertices": 10350,
+        "triangles": 20700,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_019-T14",
+        "vertices": 9777,
+        "triangles": 19554,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_020-T13",
+        "vertices": 9808,
+        "triangles": 19616,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_021-T16",
+        "vertices": 9620,
+        "triangles": 19240,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_022-T15",
+        "vertices": 9364,
+        "triangles": 18728,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_023=T18",
+        "vertices": 9365,
+        "triangles": 18730,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_024-T17",
+        "vertices": 9008,
+        "triangles": 18016,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_025-T20",
+        "vertices": 9042,
+        "triangles": 18084,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_026-T21",
+        "vertices": 8897,
+        "triangles": 17794,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_027-T22",
+        "vertices": 8990,
+        "triangles": 17980,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_028-T23",
+        "vertices": 8878,
+        "triangles": 17756,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_029-T24",
+        "vertices": 8856,
+        "triangles": 17712,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_030-T25",
+        "vertices": 8712,
+        "triangles": 17424,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_031-T26",
+        "vertices": 8744,
+        "triangles": 17488,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_032-T27",
+        "vertices": 8516,
+        "triangles": 17032,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_033-T28",
+        "vertices": 8556,
+        "triangles": 17112,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_034-T29",
+        "vertices": 9553,
+        "triangles": 19106,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_035-T30",
+        "vertices": 8429,
+        "triangles": 16858,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_036",
+        "vertices": 9138,
+        "triangles": 18276,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_037",
+        "vertices": 8663,
+        "triangles": 17326,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_038",
+        "vertices": 8718,
+        "triangles": 17428,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_039",
+        "vertices": 8738,
+        "triangles": 17472,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_040",
+        "vertices": 9876,
+        "triangles": 19760,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_041",
+        "vertices": 8549,
+        "triangles": 17098,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_042",
+        "vertices": 9022,
+        "triangles": 18048,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_043",
+        "vertices": 8673,
+        "triangles": 17346,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_044",
+        "vertices": 9146,
+        "triangles": 18306,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_045",
+        "vertices": 8511,
+        "triangles": 17022,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_046",
+        "vertices": 8336,
+        "triangles": 16672,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_047",
+        "vertices": 8457,
+        "triangles": 16914,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_048",
+        "vertices": 8951,
+        "triangles": 17902,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_049",
+        "vertices": 7849,
+        "triangles": 15698,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_050",
+        "vertices": 8368,
+        "triangles": 16732,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_051",
+        "vertices": 7670,
+        "triangles": 15340,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_052",
+        "vertices": 7638,
+        "triangles": 15276,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_053",
+        "vertices": 7843,
+        "triangles": 15686,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_054",
+        "vertices": 7355,
+        "triangles": 14710,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_055",
+        "vertices": 7609,
+        "triangles": 15218,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_056",
+        "vertices": 7545,
+        "triangles": 15090,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_057",
+        "vertices": 7605,
+        "triangles": 15210,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_058",
+        "vertices": 7099,
+        "triangles": 14198,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_059",
+        "vertices": 8116,
+        "triangles": 16232,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_060",
+        "vertices": 7289,
+        "triangles": 14578,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_061",
+        "vertices": 8218,
+        "triangles": 16436,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_062",
+        "vertices": 7834,
+        "triangles": 15668,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_063",
+        "vertices": 7920,
+        "triangles": 15840,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_064",
+        "vertices": 7636,
+        "triangles": 15272,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_065",
+        "vertices": 7587,
+        "triangles": 15174,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_066",
+        "vertices": 7441,
+        "triangles": 14882,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_067",
+        "vertices": 7531,
+        "triangles": 15062,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_068",
+        "vertices": 7692,
+        "triangles": 15384,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_069",
+        "vertices": 7499,
+        "triangles": 14998,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_070",
+        "vertices": 7200,
+        "triangles": 14400,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_071",
+        "vertices": 7059,
+        "triangles": 14118,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_072",
+        "vertices": 7011,
+        "triangles": 14022,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_073",
+        "vertices": 6863,
+        "triangles": 13726,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_074",
+        "vertices": 7607,
+        "triangles": 15214,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_075",
+        "vertices": 6907,
+        "triangles": 13814,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_076",
+        "vertices": 6911,
+        "triangles": 13822,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_077",
+        "vertices": 6970,
+        "triangles": 13940,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_078",
+        "vertices": 6674,
+        "triangles": 13348,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_079",
+        "vertices": 7482,
+        "triangles": 14964,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_080",
+        "vertices": 6666,
+        "triangles": 13332,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_081",
+        "vertices": 6719,
+        "triangles": 13438,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_082",
+        "vertices": 6722,
+        "triangles": 13444,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_083",
+        "vertices": 6135,
+        "triangles": 12270,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_084",
+        "vertices": 5980,
+        "triangles": 11960,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_085",
+        "vertices": 6227,
+        "triangles": 12454,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_086",
+        "vertices": 6023,
+        "triangles": 12046,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_087",
+        "vertices": 6075,
+        "triangles": 12150,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_088",
+        "vertices": 5919,
+        "triangles": 11838,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_089",
+        "vertices": 6093,
+        "triangles": 12186,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_090",
+        "vertices": 5813,
+        "triangles": 11626,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_091",
+        "vertices": 5891,
+        "triangles": 11782,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_092",
+        "vertices": 5702,
+        "triangles": 11404,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_093",
+        "vertices": 6343,
+        "triangles": 12686,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_094",
+        "vertices": 6276,
+        "triangles": 12552,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_095",
+        "vertices": 6136,
+        "triangles": 12272,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_096",
+        "vertices": 6242,
+        "triangles": 12484,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_097",
+        "vertices": 6352,
+        "triangles": 12704,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_098",
+        "vertices": 6138,
+        "triangles": 12276,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_099",
+        "vertices": 6233,
+        "triangles": 12466,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_100",
+        "vertices": 6673,
+        "triangles": 13346,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_101",
+        "vertices": 6136,
+        "triangles": 12272,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_102",
+        "vertices": 6501,
+        "triangles": 13002,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_103",
+        "vertices": 6161,
+        "triangles": 12326,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_104",
+        "vertices": 6488,
+        "triangles": 12976,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_105",
+        "vertices": 6181,
+        "triangles": 12362,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_106",
+        "vertices": 6353,
+        "triangles": 12706,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_107",
+        "vertices": 5987,
+        "triangles": 11974,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_108",
+        "vertices": 6570,
+        "triangles": 13140,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_109",
+        "vertices": 6123,
+        "triangles": 12246,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_110",
+        "vertices": 6644,
+        "triangles": 13288,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_111",
+        "vertices": 5995,
+        "triangles": 11990,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_112",
+        "vertices": 5426,
+        "triangles": 10852,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_113",
+        "vertices": 5496,
+        "triangles": 10992,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_114",
+        "vertices": 5418,
+        "triangles": 10840,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_115",
+        "vertices": 5326,
+        "triangles": 10652,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_116",
+        "vertices": 5277,
+        "triangles": 10554,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_117",
+        "vertices": 5230,
+        "triangles": 10460,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_118",
+        "vertices": 5758,
+        "triangles": 11516,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_119",
+        "vertices": 5779,
+        "triangles": 11558,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_120",
+        "vertices": 5505,
+        "triangles": 11010,
+        "landmarks": 28
+      },
+      {
+        "mesh": "Rhineuridae_Rhineura_floridana_UF-80435_121",
+        "vertices": 5379,
+        "triangles": 10758,
+        "landmarks": 28
+      }
+    ]
+  },
+  "initially_complete_boundaries_and_anchors_preserved": 112,
+  "recovered_joints_1based": [
+    6,
+    7,
+    11,
+    105,
+    107,
+    108,
+    109,
+    111
+  ]
+}

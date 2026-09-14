@@ -1,0 +1,288 @@
+{
+  "bones": 21,
+  "landmarks": 588,
+  "max_vertex_matrix_error_mm": 2.9103830456733704e-11,
+  "max_landmark_matrix_error_mm": 0.0,
+  "first_bone_fixed": true,
+  "proper_rigid_transforms": true,
+  "topology_preserved": true,
+  "landmark_labels_and_order_preserved": true,
+  "double_ply_equals_vtp": true,
+  "combined_vtp_equals_concatenated_individuals": true,
+  "relative_transforms_verified": true,
+  "maximum_lateral_center_offset_mm": 3.308146536088232e-11,
+  "sagittal_reference_joints": 2,
+  "penetration_exceeds_tolerance": [],
+  "contacts_below_support_threshold": [],
+  "nonadjacent_intersections": 0,
+  "unverified_mesh_signs": 14,
+  "status": "needs_review",
+  "review_reasons_by_joint": [
+    {
+      "joint_index_1based": 1,
+      "name": "Cordyludae_Ouroborus_YPM_01-C3__Cordyludae_Ouroborus_YPM_02-C4",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 2,
+      "name": "Cordyludae_Ouroborus_YPM_02-C4__Cordyludae_Ouroborus_YPM_03-C5",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "insufficient_surface_coverage",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 3,
+      "name": "Cordyludae_Ouroborus_YPM_03-C5__Cordyludae_Ouroborus_YPM_04-C6",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "insufficient_surface_coverage",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 4,
+      "name": "Cordyludae_Ouroborus_YPM_04-C6__Cordyludae_Ouroborus_YPM_05-C7",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 5,
+      "name": "Cordyludae_Ouroborus_YPM_05-C7__Cordyludae_Ouroborus_YPM_06-T1",
+      "reasons": [
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "multiple_similarly_scoring_poses",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 6,
+      "name": "Cordyludae_Ouroborus_YPM_06-T1__Cordyludae_Ouroborus_YPM_07-T2",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 7,
+      "name": "Cordyludae_Ouroborus_YPM_07-T2__Cordyludae_Ouroborus_YPM_08-T3",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 8,
+      "name": "Cordyludae_Ouroborus_YPM_08-T3__Cordyludae_Ouroborus_YPM_09-T4",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 9,
+      "name": "Cordyludae_Ouroborus_YPM_09-T4__Cordyludae_Ouroborus_YPM_10-T5",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 10,
+      "name": "Cordyludae_Ouroborus_YPM_10-T5__Cordyludae_Ouroborus_YPM_11-T6",
+      "reasons": [
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 11,
+      "name": "Cordyludae_Ouroborus_YPM_11-T6__Cordyludae_Ouroborus_YPM_12-T7",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 12,
+      "name": "Cordyludae_Ouroborus_YPM_12-T7__Cordyludae_Ouroborus_YPM_13-T8",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 13,
+      "name": "Cordyludae_Ouroborus_YPM_13-T8__Cordyludae_Ouroborus_YPM_14-T9",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 14,
+      "name": "Cordyludae_Ouroborus_YPM_14-T9__Cordyludae_Ouroborus_YPM_15-L1",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "poor_surface_fit",
+        "pose_depends_on_patch_centering",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 15,
+      "name": "Cordyludae_Ouroborus_YPM_15-L1__Cordyludae_Ouroborus_YPM_16-L2",
+      "reasons": [
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 16,
+      "name": "Cordyludae_Ouroborus_YPM_16-L2__Cordyludae_Ouroborus_YPM_17-L3",
+      "reasons": [
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 17,
+      "name": "Cordyludae_Ouroborus_YPM_17-L3__Cordyludae_Ouroborus_YPM_18-L4",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 18,
+      "name": "Cordyludae_Ouroborus_YPM_18-L4__Cordyludae_Ouroborus_YPM_19-L5",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 19,
+      "name": "Cordyludae_Ouroborus_YPM_19-L5__Cordyludae_Ouroborus_YPM_20-L6",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "input_self_intersection",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 20,
+      "name": "Cordyludae_Ouroborus_YPM_20-L6__Cordyludae_Ouroborus_YPM_21-L7",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "dense_optimizer_not_converged",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    }
+  ],
+  "processing_seconds": 196.47326315699866,
+  "v1_6_1_comparison": {
+    "transforms_bitwise_equal": true,
+    "max_matrix_difference": 0.0
+  }
+}

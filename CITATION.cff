@@ -1,0 +1,12 @@
+# Fill in before public release: authors, ORCID, DOI, repository URL.
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "neutral-pose: osteological neutral articulation from segmented vertebrae"
+version: 1.7.0
+date-released: 2026-09-14
+type: software
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+repository-code: "https://github.com/OWNER/neutral-pose"
+license: "TBD"

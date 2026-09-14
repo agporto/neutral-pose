@@ -1,0 +1,86 @@
+{
+  "implementation_version": "1.7.0",
+  "parent_version": "1.6.2",
+  "parent_archive": {
+    "name": "Neutral_Pose_Implementation_v1_6_2.zip",
+    "sha256": "d8c47db52bbe31b003cfb1a874b0b1d1de78aadd82c77eb188f5c165f51186e3"
+  },
+  "release_kind": "packaging_and_code_quality",
+  "model_changed": false,
+  "statement": "Repackaged 1.6.2 as an installable package and added optional parallel execution of independent per-joint work. Fitting, discovery, symmetry, spacing, selection and export functions are AST-identical to 1.6.2 except for: removal of function-local imports, module-namespace references to contacts.*, replacement of inline numeric literals by equally valued named constants, one unused loop index, CLI flags (--version, --log-level, --workers), Mesh pickling support, and verbatim extraction of three loop bodies into task functions. See validation/refactor_audit_1.7.0.json for the per-function diff.",
+  "parent_file_sha256": {
+    "neutral_pose.py": "ef23fdffc258ee99ea7b7108a2f8fd45484eaaacadda1f2108421e8b44e5e591",
+    "neutral_pose_anatomy.py": "fdad56398cd07451ad74c604c1766141ff4238cbc82ce72be1ed8d32200583f9",
+    "neutral_pose_auto.py": "2076b98a7ec34ab053e251a0002ae116fb4a45e9e4765cd23a19db5cad271f65",
+    "neutral_pose_contacts.py": "45a6fb4a8cfed4e41ef7a0f3d668ad3f9291b92f3df881fce338599afb75878e",
+    "neutral_pose_landmarks.py": "5e00f7df61ffaa3cefb492d8b8743eb469371dad2f1fe3c6c39fb090058d8495",
+    "neutral_pose_support.py": "9b44adbd8010f9e3c599e4e853ae74c353258edd43834b5692a52d6b5c378612",
+    "tests/test_anatomical_neutral.py": "acf0a54b17ea2830035c76df1373a82ea1483cbf6767c3101fa2246401e43a76",
+    "tests/test_automatic.py": "f23309153d17736a6dd901725681a1e30dad1fd40d32c1887dfc0b9c0e0e363f",
+    "tests/test_bilateral_contacts.py": "c04f7c0f8f28d464d3c082c9a9ecb636ec9749c08b59663f0957364d188aa71c",
+    "tests/test_contact_partition.py": "37ad95024f00bde2bfff5e90ac08a4b8d20a8338213397b7a6c10ad17da4a5c7",
+    "tests/test_contact_reconstruction.py": "6f7f713568726ac85cc338e63cd461bc612ada825bd2319ef0f64a1f31ab4ea6",
+    "tests/test_exact_reuse.py": "fab9fd01f4051e0c74fc3e5bffa60c4a22a39b998499a84d280cea56424ee1e3",
+    "tests/test_landmark_symmetry.py": "648096642311c70e1fe0c8124ec6dd69d06ca303525197ee4bdebf7c24669b82",
+    "tests/test_neutral_pose.py": "cc871aa98a5d18d601ecf6f1b9491c8bc0b653740d020a3588847163839c3b31",
+    "tests/test_realistic.py": "ca38ce4f461ded297bf984c0e2efa28cf63dbf88f336b161695362945a214041",
+    "tests/test_robustness.py": "f903514adaf7ad578b231b74d8dfc2a43c7aa9f34d496b874d48456b6c4d6bb3",
+    "validate_recovery.py": "2adb4c50e336449fa3687199fbf7fa0d8b4983c0dc7615e6fc728497f3796e3b",
+    "validation/verify_exports.py": "b18797ba0feb15d077517ab06470cc69ac9687d09f2a5461b490ddf3366cd325"
+  },
+  "file_sha256": {
+    "scripts/compare_results.py": "d9f7a7d8d7d643ce2171ecce14db265a6792f5ec90601b6ceb295ff604754c9a",
+    "scripts/make_synthetic_specimen.py": "add053305052c49d841ffdf2e45462061bae93a38c8bff8ba3ac8539c9673177",
+    "scripts/refactor_audit.py": "b1d700bd4913343128d52fa9464b427d78e9cca3f03ead15aba6fb5825d45439",
+    "scripts/validate_recovery.py": "6b8f22b59a0e34c620a34b4e92ed9a77f9a1cc7c6cb92865c46c5669c4447ed5",
+    "src/neutral_pose/__init__.py": "9cbf1df37e5a28731c4bb7bfa36c13476e9c176da652761d09006c9dc1b3e86b",
+    "src/neutral_pose/__main__.py": "677c87aa1ceca232a9c992c9a82359210a9f7499c5fccd6542bc4727ffb2aea0",
+    "src/neutral_pose/anatomy.py": "f78c0fc62091e652bebd6bedaafbb6bbf335215c16e802a96714f54296cc5c98",
+    "src/neutral_pose/auto.py": "f6369cacb7244e273de13374f0628fabc81d931c3af0dc64bc995501cc589519",
+    "src/neutral_pose/contacts.py": "56bc610ace8b50dd606deea5ffef4ed1dff86f1a2160b4ad6a42bd60e2c800c2",
+    "src/neutral_pose/core.py": "43a02352623110b8e9003321f7a8ea006b2c62227957bf35ffb832b7fb15b20c",
+    "src/neutral_pose/discovery.py": "c8afc4488ebfe456763b9beb9bc8edda558c7e20b53bc2c4fe2d7117c4ad19bf",
+    "src/neutral_pose/landmarks.py": "0ae5a66fdb4a0c4a7fb45d2472214ba8a538debc99328319d73be5c1eaa45991",
+    "src/neutral_pose/parallel.py": "79b340e2e9c61975c49a8b1e20e2e301aa2425485857195775d2d2064fb073fb",
+    "src/neutral_pose/recovery.py": "2711fdb588c5bbb1323cd0cfeb8c67dbae1d42d744bb7de03a9f970d73cbaa35",
+    "src/neutral_pose/support.py": "a0bff1e0c7883f5f6957035549e3ab222ddde7a90db0f3d96f7b6e8ddf78f5ca",
+    "src/neutral_pose/surfaces.py": "609092c4c6ba4dd792a4a6f92d7b24d79ddcc94018efab719a62b7215eeeb9b9",
+    "src/neutral_pose/version.py": "50ed08a2990bf3a233d203b440682120fe9aea44c8df2db5893e73f9541fb87c",
+    "tests/test_anatomical_neutral.py": "9366111909e332a2acf9f96ce9e8aef3f08d4d85d6ffd41ec8f9b666e9d6e4b8",
+    "tests/test_automatic.py": "1b6a66bcc77889dac0965a26070a1d3660058b06913b7ec55cdc3eebaf28e969",
+    "tests/test_bilateral_contacts.py": "f639dbacf04bb16ccf1bf8592b3c59daaa79672670ec0a9c21eb9d843d8a8fcd",
+    "tests/test_contact_partition.py": "dd64b7a65399ed24a34206e32ae1408a843c2928519ab46dd1e0e445a6792cfa",
+    "tests/test_contact_reconstruction.py": "ad6b558d3d1db116911fd912b9f221e4c8e625d3619b0d3972d714d9bbaad5ba",
+    "tests/test_exact_reuse.py": "272d79371a9a461ceee54e91b203f33cc8de40834590161ae9bfc0c77577490b",
+    "tests/test_landmark_symmetry.py": "944671b4e1ae798148a69516d85c47e7f429bf3cef79e1c828e6cbc4566a8efc",
+    "tests/test_neutral_pose.py": "1605bc9f4b86ae2ddc432343cb8262fb957b0e2cf23fe4ea4f88b28c8b824339",
+    "tests/test_parallel.py": "4a41b5c85c9b4c8ad0229ed748b0ebf09a9e9fea00b2e7b034cc1b10fff3a602",
+    "tests/test_realistic.py": "62ca55e742c52f2878a092624d26bba03ed606b0f668fc6aeec2977d051e9441",
+    "tests/test_robustness.py": "af8b8fe82bacb741afd22891c16c1543d1c757a3c20c8ff592ef7193ca2b3dee",
+    "validation/verify_exports.py": "99e62dd1f9061c35cf400a407e97fe2c5921ca1d71fd14a3d1ccb9a7cafe2400"
+  },
+  "tests": "149 passed in 128.42s (0:02:08)",
+  "audit": "validation/refactor_audit_1.7.0.json",
+  "prior_validation": {
+    "note": "Real-specimen runs (Rhineura, Ouroborus) were performed on 1.6.2 and were not rerun for 1.7.0, because the model is unchanged. Their receipts are retained under validation/.",
+    "release_checks": "validation/release_checks.json"
+  },
+  "equivalence_check": {
+    "description": "Automatic CLI runs on six synthetic specimens (3-6 marching-cubes vertebrae; noise 0-0.25; RAS and LPS; straight and bent; with landmark planes accepted and with the surface-symmetry fallback), each processed by the original 1.6.2 flat modules and by 1.7.0 serially (--workers 1) and with 3 worker processes under both the fork and spawn start methods.",
+    "compared": [
+      "neutral_transforms.npy",
+      "meshes_vtp/*",
+      "patches/*",
+      "LMKs_json/*",
+      "joint_metrics.csv",
+      "automatic_setup.json",
+      "automatic_inference.json",
+      "neutral_report.json (excluding version strings)"
+    ],
+    "result": "bitwise identical in every case",
+    "tooling": [
+      "scripts/make_synthetic_specimen.py",
+      "scripts/compare_results.py"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "mesh_coordinate_system": "RAS",
+  "length_unit": "mm",
+  "require_anatomy": true,
+  "roles": {
+    "anterior_centrum": "YOUR_ANTERIOR_CENTRUM_SURFACE_LABEL",
+    "posterior_centrum": "YOUR_POSTERIOR_CENTRUM_SURFACE_LABEL",
+    "left_prezygapophysis": "YOUR_LEFT_PREZYGAPOPHYSEAL_SURFACE_LABEL",
+    "right_prezygapophysis": "YOUR_RIGHT_PREZYGAPOPHYSEAL_SURFACE_LABEL",
+    "left_postzygapophysis": "YOUR_LEFT_POSTZYGAPOPHYSEAL_SURFACE_LABEL",
+    "right_postzygapophysis": "YOUR_RIGHT_POSTZYGAPOPHYSEAL_SURFACE_LABEL"
+  },
+  "patch_defaults": {
+    "centrum": {"radius_fraction": 0.22, "normal_angle_deg": 80},
+    "facet": {"radius_fraction": 0.16, "normal_angle_deg": 55},
+    "accessory": {"radius_fraction": 0.12, "normal_angle_deg": 65}
+  },
+  "joint_gaps": {"centrum": 0.01, "facet": 0.01, "accessory": 0.01},
+  "options": {
+    "starts": 5,
+    "samples": 160,
+    "target_samples": 1600,
+    "sensitivity": true,
+    "trusted_pose_weight": 0.0,
+    "noise_floor_mm": null,
+    "auto_noise_floor": false,
+    "keep_largest_component": false
+  }
+}

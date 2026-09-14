@@ -1,0 +1,9 @@
+{
+  "command": "python -m pytest tests -n 4 -W error::DeprecationWarning",
+  "result": "149 passed in 128.42s (0:02:08)",
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "vtk": "9.7.0",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39"
+}

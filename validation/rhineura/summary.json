@@ -1,0 +1,1503 @@
+{
+  "bones": 121,
+  "landmarks": 3388,
+  "max_vertex_matrix_error_mm": 4.263256414560601e-14,
+  "max_landmark_matrix_error_mm": 0.0,
+  "first_bone_fixed": true,
+  "proper_rigid_transforms": true,
+  "topology_preserved": true,
+  "landmark_labels_and_order_preserved": true,
+  "double_ply_equals_vtp": true,
+  "combined_vtp_equals_concatenated_individuals": true,
+  "relative_transforms_verified": true,
+  "maximum_lateral_center_offset_mm": 3.941153079022268e-14,
+  "sagittal_reference_joints": 22,
+  "penetration_exceeds_tolerance": [
+    33,
+    62,
+    67,
+    68
+  ],
+  "contacts_below_support_threshold": [
+    14,
+    22,
+    27,
+    34,
+    36,
+    42,
+    52,
+    57,
+    59,
+    60,
+    63,
+    64,
+    66,
+    73,
+    82,
+    85,
+    86,
+    93,
+    96,
+    100,
+    101,
+    102,
+    110,
+    112,
+    115,
+    116,
+    120
+  ],
+  "nonadjacent_intersections": 0,
+  "unverified_mesh_signs": 6,
+  "status": "needs_review",
+  "review_reasons_by_joint": [
+    {
+      "joint_index_1based": 1,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_001-C3__Rhineuridae_Rhineura_floridana_UF-80435_002-C4",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference"
+      ]
+    },
+    {
+      "joint_index_1based": 2,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_002-C4__Rhineuridae_Rhineura_floridana_UF-80435_003-C5",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 3,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_003-C5__Rhineuridae_Rhineura_floridana_UF-80435_004-C6",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components"
+      ]
+    },
+    {
+      "joint_index_1based": 4,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_004-C6__Rhineuridae_Rhineura_floridana_UF-80435_005-C7",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 5,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_005-C7__Rhineuridae_Rhineura_floridana_UF-80435_006-T1",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "insufficient_surface_coverage",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 6,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_006-T1__Rhineuridae_Rhineura_floridana_UF-80435_007-T2",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 7,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_007-T2__Rhineuridae_Rhineura_floridana_UF-80435_008-T1",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "insufficient_surface_coverage",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 8,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_008-T1__Rhineuridae_Rhineura_floridana_UF-80435_009-T4",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "input_self_intersection",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 9,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_009-T4__Rhineuridae_Rhineura_floridana_UF-80435_010-T5",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 10,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_010-T5__Rhineuridae_Rhineura_floridana_UF-80435_011-T6",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 11,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_011-T6__Rhineuridae_Rhineura_floridana_UF-80435_012-T7",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 12,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_012-T7__Rhineuridae_Rhineura_floridana_UF-80435_013-T8",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage"
+      ]
+    },
+    {
+      "joint_index_1based": 13,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_013-T8__Rhineuridae_Rhineura_floridana_UF-80435_014-T9",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage"
+      ]
+    },
+    {
+      "joint_index_1based": 14,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_014-T9__Rhineuridae_Rhineura_floridana_UF-80435_015-T10",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 15,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_015-T10__Rhineuridae_Rhineura_floridana_UF-80435_016-T11",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference"
+      ]
+    },
+    {
+      "joint_index_1based": 16,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_016-T11__Rhineuridae_Rhineura_floridana_UF-80435_017-T12",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "multiple_similarly_scoring_poses"
+      ]
+    },
+    {
+      "joint_index_1based": 17,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_017-T12__Rhineuridae_Rhineura_floridana_UF-80435_018-T13",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 18,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_018-T13__Rhineuridae_Rhineura_floridana_UF-80435_019-T14",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage"
+      ]
+    },
+    {
+      "joint_index_1based": 19,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_019-T14__Rhineuridae_Rhineura_floridana_UF-80435_020-T13",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage"
+      ]
+    },
+    {
+      "joint_index_1based": 20,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_020-T13__Rhineuridae_Rhineura_floridana_UF-80435_021-T16",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 21,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_021-T16__Rhineuridae_Rhineura_floridana_UF-80435_022-T15",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 22,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_022-T15__Rhineuridae_Rhineura_floridana_UF-80435_023=T18",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 23,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_023=T18__Rhineuridae_Rhineura_floridana_UF-80435_024-T17",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 24,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_024-T17__Rhineuridae_Rhineura_floridana_UF-80435_025-T20",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage"
+      ]
+    },
+    {
+      "joint_index_1based": 25,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_025-T20__Rhineuridae_Rhineura_floridana_UF-80435_026-T21",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "multiple_similarly_scoring_poses",
+        "pose_depends_on_patch_centering",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 26,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_026-T21__Rhineuridae_Rhineura_floridana_UF-80435_027-T22",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 27,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_027-T22__Rhineuridae_Rhineura_floridana_UF-80435_028-T23",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 28,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_028-T23__Rhineuridae_Rhineura_floridana_UF-80435_029-T24",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 29,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_029-T24__Rhineuridae_Rhineura_floridana_UF-80435_030-T25",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "multiple_similarly_scoring_poses"
+      ]
+    },
+    {
+      "joint_index_1based": 30,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_030-T25__Rhineuridae_Rhineura_floridana_UF-80435_031-T26",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage"
+      ]
+    },
+    {
+      "joint_index_1based": 31,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_031-T26__Rhineuridae_Rhineura_floridana_UF-80435_032-T27",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 32,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_032-T27__Rhineuridae_Rhineura_floridana_UF-80435_033-T28",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 33,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_033-T28__Rhineuridae_Rhineura_floridana_UF-80435_034-T29",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "penetration_exceeds_tolerance",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 34,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_034-T29__Rhineuridae_Rhineura_floridana_UF-80435_035-T30",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 35,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_035-T30__Rhineuridae_Rhineura_floridana_UF-80435_036",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 36,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_036__Rhineuridae_Rhineura_floridana_UF-80435_037",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 37,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_037__Rhineuridae_Rhineura_floridana_UF-80435_038",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 38,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_038__Rhineuridae_Rhineura_floridana_UF-80435_039",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 39,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_039__Rhineuridae_Rhineura_floridana_UF-80435_040",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 40,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_040__Rhineuridae_Rhineura_floridana_UF-80435_041",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 41,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_041__Rhineuridae_Rhineura_floridana_UF-80435_042",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 42,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_042__Rhineuridae_Rhineura_floridana_UF-80435_043",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 43,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_043__Rhineuridae_Rhineura_floridana_UF-80435_044",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "poor_surface_fit",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 44,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_044__Rhineuridae_Rhineura_floridana_UF-80435_045",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "dense_optimizer_not_converged",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 45,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_045__Rhineuridae_Rhineura_floridana_UF-80435_046",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 46,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_046__Rhineuridae_Rhineura_floridana_UF-80435_047",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 47,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_047__Rhineuridae_Rhineura_floridana_UF-80435_048",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 48,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_048__Rhineuridae_Rhineura_floridana_UF-80435_049",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 49,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_049__Rhineuridae_Rhineura_floridana_UF-80435_050",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 50,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_050__Rhineuridae_Rhineura_floridana_UF-80435_051",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "disconnected_mesh_components",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 51,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_051__Rhineuridae_Rhineura_floridana_UF-80435_052",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 52,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_052__Rhineuridae_Rhineura_floridana_UF-80435_053",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 53,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_053__Rhineuridae_Rhineura_floridana_UF-80435_054",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "dense_optimizer_not_converged",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 54,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_054__Rhineuridae_Rhineura_floridana_UF-80435_055",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference"
+      ]
+    },
+    {
+      "joint_index_1based": 55,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_055__Rhineuridae_Rhineura_floridana_UF-80435_056",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 56,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_056__Rhineuridae_Rhineura_floridana_UF-80435_057",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 57,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_057__Rhineuridae_Rhineura_floridana_UF-80435_058",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 58,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_058__Rhineuridae_Rhineura_floridana_UF-80435_059",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "multiple_similarly_scoring_poses",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 59,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_059__Rhineuridae_Rhineura_floridana_UF-80435_060",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 60,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_060__Rhineuridae_Rhineura_floridana_UF-80435_061",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 61,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_061__Rhineuridae_Rhineura_floridana_UF-80435_062",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage"
+      ]
+    },
+    {
+      "joint_index_1based": 62,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_062__Rhineuridae_Rhineura_floridana_UF-80435_063",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "penetration_exceeds_tolerance",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 63,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_063__Rhineuridae_Rhineura_floridana_UF-80435_064",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 64,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_064__Rhineuridae_Rhineura_floridana_UF-80435_065",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 65,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_065__Rhineuridae_Rhineura_floridana_UF-80435_066",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "dense_optimizer_not_converged",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 66,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_066__Rhineuridae_Rhineura_floridana_UF-80435_067",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 67,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_067__Rhineuridae_Rhineura_floridana_UF-80435_068",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "dense_optimizer_not_converged",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "penetration_exceeds_tolerance",
+        "poor_surface_fit",
+        "pose_depends_on_patch_centering",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 68,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_068__Rhineuridae_Rhineura_floridana_UF-80435_069",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "penetration_exceeds_tolerance",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 69,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_069__Rhineuridae_Rhineura_floridana_UF-80435_070",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 70,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_070__Rhineuridae_Rhineura_floridana_UF-80435_071",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 71,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_071__Rhineuridae_Rhineura_floridana_UF-80435_072",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 72,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_072__Rhineuridae_Rhineura_floridana_UF-80435_073",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 73,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_073__Rhineuridae_Rhineura_floridana_UF-80435_074",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 74,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_074__Rhineuridae_Rhineura_floridana_UF-80435_075",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 75,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_075__Rhineuridae_Rhineura_floridana_UF-80435_076",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 76,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_076__Rhineuridae_Rhineura_floridana_UF-80435_077",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 77,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_077__Rhineuridae_Rhineura_floridana_UF-80435_078",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "dense_optimizer_not_converged",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 78,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_078__Rhineuridae_Rhineura_floridana_UF-80435_079",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 79,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_079__Rhineuridae_Rhineura_floridana_UF-80435_080",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 80,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_080__Rhineuridae_Rhineura_floridana_UF-80435_081",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 81,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_081__Rhineuridae_Rhineura_floridana_UF-80435_082",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 82,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_082__Rhineuridae_Rhineura_floridana_UF-80435_083",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 83,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_083__Rhineuridae_Rhineura_floridana_UF-80435_084",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 84,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_084__Rhineuridae_Rhineura_floridana_UF-80435_085",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 85,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_085__Rhineuridae_Rhineura_floridana_UF-80435_086",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 86,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_086__Rhineuridae_Rhineura_floridana_UF-80435_087",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 87,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_087__Rhineuridae_Rhineura_floridana_UF-80435_088",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 88,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_088__Rhineuridae_Rhineura_floridana_UF-80435_089",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 89,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_089__Rhineuridae_Rhineura_floridana_UF-80435_090",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 90,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_090__Rhineuridae_Rhineura_floridana_UF-80435_091",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 91,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_091__Rhineuridae_Rhineura_floridana_UF-80435_092",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "pose_depends_on_patch_centering",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 92,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_092__Rhineuridae_Rhineura_floridana_UF-80435_093",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 93,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_093__Rhineuridae_Rhineura_floridana_UF-80435_094",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 94,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_094__Rhineuridae_Rhineura_floridana_UF-80435_095",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 95,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_095__Rhineuridae_Rhineura_floridana_UF-80435_096",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 96,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_096__Rhineuridae_Rhineura_floridana_UF-80435_097",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 97,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_097__Rhineuridae_Rhineura_floridana_UF-80435_098",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 98,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_098__Rhineuridae_Rhineura_floridana_UF-80435_099",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 99,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_099__Rhineuridae_Rhineura_floridana_UF-80435_100",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage"
+      ]
+    },
+    {
+      "joint_index_1based": 100,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_100__Rhineuridae_Rhineura_floridana_UF-80435_101",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 101,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_101__Rhineuridae_Rhineura_floridana_UF-80435_102",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 102,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_102__Rhineuridae_Rhineura_floridana_UF-80435_103",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "poor_surface_fit",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 103,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_103__Rhineuridae_Rhineura_floridana_UF-80435_104",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "open_or_nonmanifold_mesh_sign_unverified",
+        "sensitive_to_model_assumptions",
+        "triangle_intersections_require_review"
+      ]
+    },
+    {
+      "joint_index_1based": 104,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_104__Rhineuridae_Rhineura_floridana_UF-80435_105",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 105,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_105__Rhineuridae_Rhineura_floridana_UF-80435_106",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 106,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_106__Rhineuridae_Rhineura_floridana_UF-80435_107",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 107,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_107__Rhineuridae_Rhineura_floridana_UF-80435_108",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 108,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_108__Rhineuridae_Rhineura_floridana_UF-80435_109",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 109,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_109__Rhineuridae_Rhineura_floridana_UF-80435_110",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 110,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_110__Rhineuridae_Rhineura_floridana_UF-80435_111",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 111,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_111__Rhineuridae_Rhineura_floridana_UF-80435_112",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 112,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_112__Rhineuridae_Rhineura_floridana_UF-80435_113",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 113,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_113__Rhineuridae_Rhineura_floridana_UF-80435_114",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 114,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_114__Rhineuridae_Rhineura_floridana_UF-80435_115",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 115,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_115__Rhineuridae_Rhineura_floridana_UF-80435_116",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 116,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_116__Rhineuridae_Rhineura_floridana_UF-80435_117",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit"
+      ]
+    },
+    {
+      "joint_index_1based": 117,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_117__Rhineuridae_Rhineura_floridana_UF-80435_118",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 118,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_118__Rhineuridae_Rhineura_floridana_UF-80435_119",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 119,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_119__Rhineuridae_Rhineura_floridana_UF-80435_120",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "geometry_only_patch_identity",
+        "insufficient_surface_coverage",
+        "multiple_similarly_scoring_poses",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    },
+    {
+      "joint_index_1based": 120,
+      "name": "Rhineuridae_Rhineura_floridana_UF-80435_120__Rhineuridae_Rhineura_floridana_UF-80435_121",
+      "reasons": [
+        "anchor_offset_exceeds_tolerance",
+        "automatically_inferred_contact_reference",
+        "dense_optimizer_not_converged",
+        "insufficient_surface_coverage",
+        "neutral_sagittal_reference_due_to_uncertain_fit",
+        "poor_surface_fit",
+        "sensitive_to_model_assumptions"
+      ]
+    }
+  ],
+  "processing_seconds": 1031.3534738849994,
+  "recovery_passes": [
+    {
+      "recovered_joint_indices": [
+        5,
+        6,
+        10,
+        104,
+        107,
+        108,
+        110
+      ],
+      "deferred": [
+        {
+          "joint_index": 106,
+          "error": "Rhineuridae_Rhineura_floridana_UF-80435_107/Rhineuridae_Rhineura_floridana_UF-80435_108: contact recovery failed: [{'seed_source': 'landmark_seed', 'seed_offset_deg': -12.0, 'partitioned_contacts': False, 'error': 'No distinct contact assignment satisfies landmark distance <= 0.1 of bone scale (3 candidates; closest distances: inferred_centrum=0.01394, inferred_facet_1=0.03131, inferred_facet_2=0.1298)'}, {'seed_source': 'landmark_seed', 'seed_offset_deg': 0.0, 'partitioned_contacts': False, 'error': 'No distinct contact assignment satisfies landmark distance <= 0.1 of bone scale (3 candidates; closest distances: inferred_centrum=3.628e-07, inferred_facet_1=0.002805, inferred_facet_2=0.1652)'}, {'seed_source': 'landmark_seed', 'seed_offset_deg': 12.0, 'partitioned_contacts': False, 'error': 'Only 2 candidate contact patches for 3 anatomical roles; contact regions may be missing or merged'}, {'seed_source': 'input', 'seed_offset_deg': None, 'partitioned_contacts': True, 'error': 'Rhineuridae_Rhineura_floridana_UF-80435_107/Rhineuridae_Rhineura_floridana_UF-80435_108: no two candidate contacts form a supported bilateral pair on both bones.'}, {'seed_source': 'landmark_seed', 'seed_offset_deg': -12.0, 'partitioned_contacts': True, 'error': 'No distinct contact assignment satisfies landmark distance <= 0.1 of bone scale (3 candidates; closest distances: inferred_centrum=0.2655, inferred_facet_1=0.03131, inferred_facet_2=0.1298)'}, {'seed_source': 'landmark_seed', 'seed_offset_deg': 0.0, 'partitioned_contacts': True, 'error': 'No distinct contact assignment satisfies landmark distance <= 0.1 of bone scale (3 candidates; closest distances: inferred_centrum=3.628e-07, inferred_facet_1=0.002805, inferred_facet_2=0.1652)'}, {'seed_source': 'landmark_seed', 'seed_offset_deg': 12.0, 'partitioned_contacts': True, 'error': 'Only 2 candidate contact patches for 3 anatomical roles; contact regions may be missing or merged'}, {'seed_source': 'projected_input', 'seed_offset_deg': -12.0, 'partitioned_contacts': True, 'error': 'No distinct contact assignment satisfies landmark distance <= 0.1 of bone scale (3 candidates; closest distances: inferred_centrum=0.2008, inferred_facet_1=0.02663, inferred_facet_2=0.1522)'}, {'seed_source': 'projected_input', 'seed_offset_deg': -6.0, 'partitioned_contacts': True, 'error': 'Re-discovered contacts cannot simultaneously support an articulation'}, {'seed_source': 'projected_input', 'seed_offset_deg': 0.0, 'partitioned_contacts': True, 'error': 'Rhineuridae_Rhineura_floridana_UF-80435_107/Rhineuridae_Rhineura_floridana_UF-80435_108: no two candidate contacts form a supported bilateral pair on both bones.'}, {'seed_source': 'projected_input', 'seed_offset_deg': 6.0, 'partitioned_contacts': True, 'error': 'Only 2 candidate contact patches for 3 anatomical roles; contact regions may be missing or merged'}, {'seed_source': 'projected_input', 'seed_offset_deg': 12.0, 'partitioned_contacts': True, 'error': 'No distinct contact assignment satisfies landmark distance <= 0.1 of bone scale (5 candidates; closest distances: inferred_centrum=0.005444, inferred_facet_1=0.08615, inferred_facet_2=0.1312)'}, {'seed_source': 'landmark_seed', 'seed_offset_deg': -6.0, 'partitioned_contacts': True, 'error': 'Rhineuridae_Rhineura_floridana_UF-80435_107/Rhineuridae_Rhineura_floridana_UF-80435_108: no two candidate contacts form a supported bilateral pair on both bones.'}, {'seed_source': 'landmark_seed', 'seed_offset_deg': 6.0, 'partitioned_contacts': True, 'error': 'Only 2 candidate contact patches for 3 anatomical roles; contact regions may be missing or merged'}]"
+        }
+      ]
+    },
+    {
+      "recovered_joint_indices": [
+        106
+      ],
+      "deferred": []
+    }
+  ],
+  "original_training_joint_count": 106,
+  "original_complete_boundaries_preserved": 112,
+  "T1_T2_final_contacts": [
+    {
+      "name": "inferred_centrum",
+      "kind": "centrum",
+      "a_to_b_coverage": 0.8645833333333334,
+      "b_to_a_coverage": 0.8333333333333334
+    },
+    {
+      "name": "inferred_facet_1",
+      "kind": "facet",
+      "a_to_b_coverage": 0.96875,
+      "b_to_a_coverage": 0.96875
+    },
+    {
+      "name": "inferred_facet_2",
+      "kind": "facet",
+      "a_to_b_coverage": 0.90625,
+      "b_to_a_coverage": 0.71875
+    }
+  ],
+  "T1_T2_review_reasons": [
+    "anchor_offset_exceeds_tolerance",
+    "automatically_inferred_contact_reference",
+    "disconnected_mesh_components",
+    "open_or_nonmanifold_mesh_sign_unverified",
+    "poor_surface_fit",
+    "sensitive_to_model_assumptions",
+    "triangle_intersections_require_review"
+  ]
+}

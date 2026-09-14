@@ -1,0 +1,6 @@
+PLACEHOLDER — no license has been chosen yet.
+
+Until the maintainers choose and commit a license, this code is "all rights
+reserved" by default and may not be redistributed. Common choices for research
+software of this kind are MIT, BSD-3-Clause and Apache-2.0. Replace this file
+and update the `license` field in pyproject.toml, README.md and CITATION.cff.

@@ -1,0 +1,6 @@
+# Tested versions; not a complete dependency lock.
+numpy==2.3.5
+scipy==1.17.0
+vtk==9.3.1
+matplotlib==3.10.8
+pytest==9.1.1

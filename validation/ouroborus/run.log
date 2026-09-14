@@ -1,0 +1,279 @@
+INFO: Reading mesh 1/21: Cordyludae_Ouroborus_YPM_01-C3.vtp
+WARNING: Cordyludae_Ouroborus_YPM_01-C3: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 2/21: Cordyludae_Ouroborus_YPM_02-C4.vtp
+WARNING: Cordyludae_Ouroborus_YPM_02-C4: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 3/21: Cordyludae_Ouroborus_YPM_03-C5.vtp
+INFO: Reading mesh 4/21: Cordyludae_Ouroborus_YPM_04-C6.vtp
+INFO: Reading mesh 5/21: Cordyludae_Ouroborus_YPM_05-C7.vtp
+INFO: Reading mesh 6/21: Cordyludae_Ouroborus_YPM_06-T1.vtp
+WARNING: Cordyludae_Ouroborus_YPM_06-T1: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 7/21: Cordyludae_Ouroborus_YPM_07-T2.vtp
+INFO: Reading mesh 8/21: Cordyludae_Ouroborus_YPM_08-T3.vtp
+WARNING: Cordyludae_Ouroborus_YPM_08-T3: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 9/21: Cordyludae_Ouroborus_YPM_09-T4.vtp
+WARNING: Cordyludae_Ouroborus_YPM_09-T4: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 10/21: Cordyludae_Ouroborus_YPM_10-T5.vtp
+WARNING: Cordyludae_Ouroborus_YPM_10-T5: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 11/21: Cordyludae_Ouroborus_YPM_11-T6.vtp
+INFO: Reading mesh 12/21: Cordyludae_Ouroborus_YPM_12-T7.vtp
+WARNING: Cordyludae_Ouroborus_YPM_12-T7: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 13/21: Cordyludae_Ouroborus_YPM_13-T8.vtp
+INFO: Reading mesh 14/21: Cordyludae_Ouroborus_YPM_14-T9.vtp
+WARNING: Cordyludae_Ouroborus_YPM_14-T9: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 15/21: Cordyludae_Ouroborus_YPM_15-L1.vtp
+INFO: Reading mesh 16/21: Cordyludae_Ouroborus_YPM_16-L2.vtp
+WARNING: Cordyludae_Ouroborus_YPM_16-L2: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 17/21: Cordyludae_Ouroborus_YPM_17-L3.vtp
+WARNING: Cordyludae_Ouroborus_YPM_17-L3: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 18/21: Cordyludae_Ouroborus_YPM_18-L4.vtp
+WARNING: Cordyludae_Ouroborus_YPM_18-L4: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 19/21: Cordyludae_Ouroborus_YPM_19-L5.vtp
+WARNING: Cordyludae_Ouroborus_YPM_19-L5: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 20/21: Cordyludae_Ouroborus_YPM_20-L6.vtp
+WARNING: Cordyludae_Ouroborus_YPM_20-L6: input self-intersection detected; retaining geometry with unverified signs.
+INFO: Reading mesh 21/21: Cordyludae_Ouroborus_YPM_21-L7.vtp
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_01-C3
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_02-C4
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_03-C5
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_04-C6
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_05-C7
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_06-T1
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_07-T2
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_08-T3
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_09-T4
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_10-T5
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_11-T6
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_12-T7
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_13-T8
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_14-T9
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_15-L1
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_16-L2
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_17-L3
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_18-L4
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_19-L5
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_20-L6
+INFO: Inferring landmark symmetry: Cordyludae_Ouroborus_YPM_21-L7
+INFO: Landmark symmetry: 21 accepted planes; 0 require surface fallback
+INFO: Discovering contacts and spacing 1/20: Cordyludae_Ouroborus_YPM_01-C3 / Cordyludae_Ouroborus_YPM_02-C4
+INFO: Found 3 paired patches; estimated clearances 0.004242, 0.002623, 0.003499 mm; surface residual allowance 0.03186 mm
+INFO: Discovering contacts and spacing 2/20: Cordyludae_Ouroborus_YPM_02-C4 / Cordyludae_Ouroborus_YPM_03-C5
+INFO: Found 1 paired patches; estimated clearances 0.01794 mm; surface residual allowance 0 mm
+INFO: Discovering contacts and spacing 3/20: Cordyludae_Ouroborus_YPM_03-C5 / Cordyludae_Ouroborus_YPM_04-C6
+INFO: Found 3 paired patches; estimated clearances 0.0002982, 0.004511, 0.006832 mm; surface residual allowance 0.02992 mm
+INFO: Discovering contacts and spacing 4/20: Cordyludae_Ouroborus_YPM_04-C6 / Cordyludae_Ouroborus_YPM_05-C7
+INFO: Found 3 paired patches; estimated clearances 0.01131, 0.007924, 0.008438 mm; surface residual allowance 0.03025 mm
+INFO: Discovering contacts and spacing 5/20: Cordyludae_Ouroborus_YPM_05-C7 / Cordyludae_Ouroborus_YPM_06-T1
+INFO: Found 3 paired patches; estimated clearances 0.003724, 0.02103, 0.02148 mm; surface residual allowance 0.03023 mm
+INFO: Discovering contacts and spacing 6/20: Cordyludae_Ouroborus_YPM_06-T1 / Cordyludae_Ouroborus_YPM_07-T2
+INFO: Found 3 paired patches; estimated clearances 0.01681, 0.01684, 0.06893 mm; surface residual allowance 0.03036 mm
+INFO: Discovering contacts and spacing 7/20: Cordyludae_Ouroborus_YPM_07-T2 / Cordyludae_Ouroborus_YPM_08-T3
+INFO: Found 3 paired patches; estimated clearances 0.004514, 0.08239, 0.1818 mm; surface residual allowance 0.03128 mm
+INFO: Discovering contacts and spacing 8/20: Cordyludae_Ouroborus_YPM_08-T3 / Cordyludae_Ouroborus_YPM_09-T4
+INFO: Found 3 paired patches; estimated clearances 0.005829, 0.03471, 0.08574 mm; surface residual allowance 0.03232 mm
+INFO: Discovering contacts and spacing 9/20: Cordyludae_Ouroborus_YPM_09-T4 / Cordyludae_Ouroborus_YPM_10-T5
+INFO: Found 3 paired patches; estimated clearances 0.01388, 0.04574, 0.05711 mm; surface residual allowance 0.03438 mm
+INFO: Discovering contacts and spacing 10/20: Cordyludae_Ouroborus_YPM_10-T5 / Cordyludae_Ouroborus_YPM_11-T6
+INFO: Found 3 paired patches; estimated clearances 0.00512, 0.04728, 0.02677 mm; surface residual allowance 0.03495 mm
+INFO: Discovering contacts and spacing 11/20: Cordyludae_Ouroborus_YPM_11-T6 / Cordyludae_Ouroborus_YPM_12-T7
+INFO: Found 3 paired patches; estimated clearances 0.001346, 0.05272, 0.03839 mm; surface residual allowance 0.03421 mm
+INFO: Discovering contacts and spacing 12/20: Cordyludae_Ouroborus_YPM_12-T7 / Cordyludae_Ouroborus_YPM_13-T8
+INFO: Found 3 paired patches; estimated clearances 0.007346, 0.06211, 0.02993 mm; surface residual allowance 0.03455 mm
+INFO: Discovering contacts and spacing 13/20: Cordyludae_Ouroborus_YPM_13-T8 / Cordyludae_Ouroborus_YPM_14-T9
+INFO: Found 3 paired patches; estimated clearances 0.005791, 0.05465, 0.0296 mm; surface residual allowance 0.03432 mm
+INFO: Discovering contacts and spacing 14/20: Cordyludae_Ouroborus_YPM_14-T9 / Cordyludae_Ouroborus_YPM_15-L1
+INFO: Found 3 paired patches; estimated clearances 0.01642, 0.1666, 0.2064 mm; surface residual allowance 0.03407 mm
+INFO: Discovering contacts and spacing 15/20: Cordyludae_Ouroborus_YPM_15-L1 / Cordyludae_Ouroborus_YPM_16-L2
+INFO: Found 3 paired patches; estimated clearances 0.003588, 0.008855, 0.02041 mm; surface residual allowance 0.03429 mm
+INFO: Discovering contacts and spacing 16/20: Cordyludae_Ouroborus_YPM_16-L2 / Cordyludae_Ouroborus_YPM_17-L3
+INFO: Found 3 paired patches; estimated clearances 0.03218, 0.003909, 0.006836 mm; surface residual allowance 0.03466 mm
+INFO: Discovering contacts and spacing 17/20: Cordyludae_Ouroborus_YPM_17-L3 / Cordyludae_Ouroborus_YPM_18-L4
+INFO: Found 3 paired patches; estimated clearances 0.01716, 0.006662, 0.03012 mm; surface residual allowance 0.03559 mm
+INFO: Discovering contacts and spacing 18/20: Cordyludae_Ouroborus_YPM_18-L4 / Cordyludae_Ouroborus_YPM_19-L5
+INFO: Found 3 paired patches; estimated clearances 0.004187, 0.003441, 0.05143 mm; surface residual allowance 0.03763 mm
+INFO: Discovering contacts and spacing 19/20: Cordyludae_Ouroborus_YPM_19-L5 / Cordyludae_Ouroborus_YPM_20-L6
+INFO: Found 3 paired patches; estimated clearances 0.002512, 0.003653, 0.005569 mm; surface residual allowance 0.03654 mm
+INFO: Discovering contacts and spacing 20/20: Cordyludae_Ouroborus_YPM_20-L6 / Cordyludae_Ouroborus_YPM_21-L7
+INFO: Found 3 paired patches; estimated clearances 0.001389, 0.00511, 0.007918 mm; surface residual allowance 0.03377 mm
+INFO: Building anatomical frame 1/21: Cordyludae_Ouroborus_YPM_01-C3
+INFO: Building anatomical frame 2/21: Cordyludae_Ouroborus_YPM_02-C4
+INFO: Building anatomical frame 3/21: Cordyludae_Ouroborus_YPM_03-C5
+INFO: Building anatomical frame 4/21: Cordyludae_Ouroborus_YPM_04-C6
+INFO: Building anatomical frame 5/21: Cordyludae_Ouroborus_YPM_05-C7
+INFO: Building anatomical frame 6/21: Cordyludae_Ouroborus_YPM_06-T1
+INFO: Building anatomical frame 7/21: Cordyludae_Ouroborus_YPM_07-T2
+INFO: Building anatomical frame 8/21: Cordyludae_Ouroborus_YPM_08-T3
+INFO: Building anatomical frame 9/21: Cordyludae_Ouroborus_YPM_09-T4
+INFO: Building anatomical frame 10/21: Cordyludae_Ouroborus_YPM_10-T5
+INFO: Building anatomical frame 11/21: Cordyludae_Ouroborus_YPM_11-T6
+INFO: Building anatomical frame 12/21: Cordyludae_Ouroborus_YPM_12-T7
+INFO: Building anatomical frame 13/21: Cordyludae_Ouroborus_YPM_13-T8
+INFO: Building anatomical frame 14/21: Cordyludae_Ouroborus_YPM_14-T9
+INFO: Building anatomical frame 15/21: Cordyludae_Ouroborus_YPM_15-L1
+INFO: Building anatomical frame 16/21: Cordyludae_Ouroborus_YPM_16-L2
+INFO: Building anatomical frame 17/21: Cordyludae_Ouroborus_YPM_17-L3
+INFO: Building anatomical frame 18/21: Cordyludae_Ouroborus_YPM_18-L4
+INFO: Building anatomical frame 19/21: Cordyludae_Ouroborus_YPM_19-L5
+INFO: Building anatomical frame 20/21: Cordyludae_Ouroborus_YPM_20-L6
+INFO: Building anatomical frame 21/21: Cordyludae_Ouroborus_YPM_21-L7
+INFO: Recovering incomplete contact 2/20 using 19 complete joints
+INFO: Building anatomical frame 1/21: Cordyludae_Ouroborus_YPM_01-C3
+INFO: Building anatomical frame 2/21: Cordyludae_Ouroborus_YPM_02-C4
+INFO: Building anatomical frame 3/21: Cordyludae_Ouroborus_YPM_03-C5
+INFO: Building anatomical frame 4/21: Cordyludae_Ouroborus_YPM_04-C6
+INFO: Building anatomical frame 5/21: Cordyludae_Ouroborus_YPM_05-C7
+INFO: Building anatomical frame 6/21: Cordyludae_Ouroborus_YPM_06-T1
+INFO: Building anatomical frame 7/21: Cordyludae_Ouroborus_YPM_07-T2
+INFO: Building anatomical frame 8/21: Cordyludae_Ouroborus_YPM_08-T3
+INFO: Building anatomical frame 9/21: Cordyludae_Ouroborus_YPM_09-T4
+INFO: Building anatomical frame 10/21: Cordyludae_Ouroborus_YPM_10-T5
+INFO: Building anatomical frame 11/21: Cordyludae_Ouroborus_YPM_11-T6
+INFO: Building anatomical frame 12/21: Cordyludae_Ouroborus_YPM_12-T7
+INFO: Building anatomical frame 13/21: Cordyludae_Ouroborus_YPM_13-T8
+INFO: Building anatomical frame 14/21: Cordyludae_Ouroborus_YPM_14-T9
+INFO: Building anatomical frame 15/21: Cordyludae_Ouroborus_YPM_15-L1
+INFO: Building anatomical frame 16/21: Cordyludae_Ouroborus_YPM_16-L2
+INFO: Building anatomical frame 17/21: Cordyludae_Ouroborus_YPM_17-L3
+INFO: Building anatomical frame 18/21: Cordyludae_Ouroborus_YPM_18-L4
+INFO: Building anatomical frame 19/21: Cordyludae_Ouroborus_YPM_19-L5
+INFO: Building anatomical frame 20/21: Cordyludae_Ouroborus_YPM_20-L6
+INFO: Building anatomical frame 21/21: Cordyludae_Ouroborus_YPM_21-L7
+INFO: Found 3 paired patches; estimated clearances 0.09789, 0.3219, 0.3216 mm; surface residual allowance 0.03088 mm
+INFO: Building anatomical frame 1/21: Cordyludae_Ouroborus_YPM_01-C3
+INFO: Building anatomical frame 2/21: Cordyludae_Ouroborus_YPM_02-C4
+INFO: Building anatomical frame 3/21: Cordyludae_Ouroborus_YPM_03-C5
+INFO: Building anatomical frame 4/21: Cordyludae_Ouroborus_YPM_04-C6
+INFO: Building anatomical frame 5/21: Cordyludae_Ouroborus_YPM_05-C7
+INFO: Building anatomical frame 6/21: Cordyludae_Ouroborus_YPM_06-T1
+INFO: Building anatomical frame 7/21: Cordyludae_Ouroborus_YPM_07-T2
+INFO: Building anatomical frame 8/21: Cordyludae_Ouroborus_YPM_08-T3
+INFO: Building anatomical frame 9/21: Cordyludae_Ouroborus_YPM_09-T4
+INFO: Building anatomical frame 10/21: Cordyludae_Ouroborus_YPM_10-T5
+INFO: Building anatomical frame 11/21: Cordyludae_Ouroborus_YPM_11-T6
+INFO: Building anatomical frame 12/21: Cordyludae_Ouroborus_YPM_12-T7
+INFO: Building anatomical frame 13/21: Cordyludae_Ouroborus_YPM_13-T8
+INFO: Building anatomical frame 14/21: Cordyludae_Ouroborus_YPM_14-T9
+INFO: Building anatomical frame 15/21: Cordyludae_Ouroborus_YPM_15-L1
+INFO: Building anatomical frame 16/21: Cordyludae_Ouroborus_YPM_16-L2
+INFO: Building anatomical frame 17/21: Cordyludae_Ouroborus_YPM_17-L3
+INFO: Building anatomical frame 18/21: Cordyludae_Ouroborus_YPM_18-L4
+INFO: Building anatomical frame 19/21: Cordyludae_Ouroborus_YPM_19-L5
+INFO: Building anatomical frame 20/21: Cordyludae_Ouroborus_YPM_20-L6
+INFO: Building anatomical frame 21/21: Cordyludae_Ouroborus_YPM_21-L7
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_02-C4__Cordyludae_Ouroborus_YPM_03-C5 (0.17942 mm; ceiling 0.06176 mm)
+INFO: Found 3 paired patches; estimated clearances 0.04869, 0.02098, 0.02798 mm; surface residual allowance 0.03088 mm
+INFO: Building anatomical frame 1/21: Cordyludae_Ouroborus_YPM_01-C3
+INFO: Building anatomical frame 2/21: Cordyludae_Ouroborus_YPM_02-C4
+INFO: Building anatomical frame 3/21: Cordyludae_Ouroborus_YPM_03-C5
+INFO: Building anatomical frame 4/21: Cordyludae_Ouroborus_YPM_04-C6
+INFO: Building anatomical frame 5/21: Cordyludae_Ouroborus_YPM_05-C7
+INFO: Building anatomical frame 6/21: Cordyludae_Ouroborus_YPM_06-T1
+INFO: Building anatomical frame 7/21: Cordyludae_Ouroborus_YPM_07-T2
+INFO: Building anatomical frame 8/21: Cordyludae_Ouroborus_YPM_08-T3
+INFO: Building anatomical frame 9/21: Cordyludae_Ouroborus_YPM_09-T4
+INFO: Building anatomical frame 10/21: Cordyludae_Ouroborus_YPM_10-T5
+INFO: Building anatomical frame 11/21: Cordyludae_Ouroborus_YPM_11-T6
+INFO: Building anatomical frame 12/21: Cordyludae_Ouroborus_YPM_12-T7
+INFO: Building anatomical frame 13/21: Cordyludae_Ouroborus_YPM_13-T8
+INFO: Building anatomical frame 14/21: Cordyludae_Ouroborus_YPM_14-T9
+INFO: Building anatomical frame 15/21: Cordyludae_Ouroborus_YPM_15-L1
+INFO: Building anatomical frame 16/21: Cordyludae_Ouroborus_YPM_16-L2
+INFO: Building anatomical frame 17/21: Cordyludae_Ouroborus_YPM_17-L3
+INFO: Building anatomical frame 18/21: Cordyludae_Ouroborus_YPM_18-L4
+INFO: Building anatomical frame 19/21: Cordyludae_Ouroborus_YPM_19-L5
+INFO: Building anatomical frame 20/21: Cordyludae_Ouroborus_YPM_20-L6
+INFO: Building anatomical frame 21/21: Cordyludae_Ouroborus_YPM_21-L7
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_02-C4__Cordyludae_Ouroborus_YPM_03-C5 (0.082921 mm; ceiling 0.06176 mm)
+INFO: Found 3 paired patches; estimated clearances 0.193, 0.2565, 0.2453 mm; surface residual allowance 0.03088 mm
+INFO: Building anatomical frame 1/21: Cordyludae_Ouroborus_YPM_01-C3
+INFO: Building anatomical frame 2/21: Cordyludae_Ouroborus_YPM_02-C4
+INFO: Building anatomical frame 3/21: Cordyludae_Ouroborus_YPM_03-C5
+INFO: Building anatomical frame 4/21: Cordyludae_Ouroborus_YPM_04-C6
+INFO: Building anatomical frame 5/21: Cordyludae_Ouroborus_YPM_05-C7
+INFO: Building anatomical frame 6/21: Cordyludae_Ouroborus_YPM_06-T1
+INFO: Building anatomical frame 7/21: Cordyludae_Ouroborus_YPM_07-T2
+INFO: Building anatomical frame 8/21: Cordyludae_Ouroborus_YPM_08-T3
+INFO: Building anatomical frame 9/21: Cordyludae_Ouroborus_YPM_09-T4
+INFO: Building anatomical frame 10/21: Cordyludae_Ouroborus_YPM_10-T5
+INFO: Building anatomical frame 11/21: Cordyludae_Ouroborus_YPM_11-T6
+INFO: Building anatomical frame 12/21: Cordyludae_Ouroborus_YPM_12-T7
+INFO: Building anatomical frame 13/21: Cordyludae_Ouroborus_YPM_13-T8
+INFO: Building anatomical frame 14/21: Cordyludae_Ouroborus_YPM_14-T9
+INFO: Building anatomical frame 15/21: Cordyludae_Ouroborus_YPM_15-L1
+INFO: Building anatomical frame 16/21: Cordyludae_Ouroborus_YPM_16-L2
+INFO: Building anatomical frame 17/21: Cordyludae_Ouroborus_YPM_17-L3
+INFO: Building anatomical frame 18/21: Cordyludae_Ouroborus_YPM_18-L4
+INFO: Building anatomical frame 19/21: Cordyludae_Ouroborus_YPM_19-L5
+INFO: Building anatomical frame 20/21: Cordyludae_Ouroborus_YPM_20-L6
+INFO: Building anatomical frame 21/21: Cordyludae_Ouroborus_YPM_21-L7
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_02-C4__Cordyludae_Ouroborus_YPM_03-C5 (0.14766 mm; ceiling 0.06176 mm)
+INFO: Building anatomical frame 1/21: Cordyludae_Ouroborus_YPM_01-C3
+INFO: Building anatomical frame 2/21: Cordyludae_Ouroborus_YPM_02-C4
+INFO: Building anatomical frame 3/21: Cordyludae_Ouroborus_YPM_03-C5
+INFO: Building anatomical frame 4/21: Cordyludae_Ouroborus_YPM_04-C6
+INFO: Building anatomical frame 5/21: Cordyludae_Ouroborus_YPM_05-C7
+INFO: Building anatomical frame 6/21: Cordyludae_Ouroborus_YPM_06-T1
+INFO: Building anatomical frame 7/21: Cordyludae_Ouroborus_YPM_07-T2
+INFO: Building anatomical frame 8/21: Cordyludae_Ouroborus_YPM_08-T3
+INFO: Building anatomical frame 9/21: Cordyludae_Ouroborus_YPM_09-T4
+INFO: Building anatomical frame 10/21: Cordyludae_Ouroborus_YPM_10-T5
+INFO: Building anatomical frame 11/21: Cordyludae_Ouroborus_YPM_11-T6
+INFO: Building anatomical frame 12/21: Cordyludae_Ouroborus_YPM_12-T7
+INFO: Building anatomical frame 13/21: Cordyludae_Ouroborus_YPM_13-T8
+INFO: Building anatomical frame 14/21: Cordyludae_Ouroborus_YPM_14-T9
+INFO: Building anatomical frame 15/21: Cordyludae_Ouroborus_YPM_15-L1
+INFO: Building anatomical frame 16/21: Cordyludae_Ouroborus_YPM_16-L2
+INFO: Building anatomical frame 17/21: Cordyludae_Ouroborus_YPM_17-L3
+INFO: Building anatomical frame 18/21: Cordyludae_Ouroborus_YPM_18-L4
+INFO: Building anatomical frame 19/21: Cordyludae_Ouroborus_YPM_19-L5
+INFO: Building anatomical frame 20/21: Cordyludae_Ouroborus_YPM_20-L6
+INFO: Building anatomical frame 21/21: Cordyludae_Ouroborus_YPM_21-L7
+INFO: Fitting joint 1/20: Cordyludae_Ouroborus_YPM_01-C3 / Cordyludae_Ouroborus_YPM_02-C4
+INFO: Fitting joint 2/20: Cordyludae_Ouroborus_YPM_02-C4 / Cordyludae_Ouroborus_YPM_03-C5
+INFO: Fitting joint 3/20: Cordyludae_Ouroborus_YPM_03-C5 / Cordyludae_Ouroborus_YPM_04-C6
+INFO: Fitting joint 4/20: Cordyludae_Ouroborus_YPM_04-C6 / Cordyludae_Ouroborus_YPM_05-C7
+INFO: Fitting joint 5/20: Cordyludae_Ouroborus_YPM_05-C7 / Cordyludae_Ouroborus_YPM_06-T1
+INFO: Fitting joint 6/20: Cordyludae_Ouroborus_YPM_06-T1 / Cordyludae_Ouroborus_YPM_07-T2
+INFO: Fitting joint 7/20: Cordyludae_Ouroborus_YPM_07-T2 / Cordyludae_Ouroborus_YPM_08-T3
+INFO: Fitting joint 8/20: Cordyludae_Ouroborus_YPM_08-T3 / Cordyludae_Ouroborus_YPM_09-T4
+INFO: Fitting joint 9/20: Cordyludae_Ouroborus_YPM_09-T4 / Cordyludae_Ouroborus_YPM_10-T5
+INFO: Fitting joint 10/20: Cordyludae_Ouroborus_YPM_10-T5 / Cordyludae_Ouroborus_YPM_11-T6
+INFO: Fitting joint 11/20: Cordyludae_Ouroborus_YPM_11-T6 / Cordyludae_Ouroborus_YPM_12-T7
+INFO: Fitting joint 12/20: Cordyludae_Ouroborus_YPM_12-T7 / Cordyludae_Ouroborus_YPM_13-T8
+INFO: Fitting joint 13/20: Cordyludae_Ouroborus_YPM_13-T8 / Cordyludae_Ouroborus_YPM_14-T9
+INFO: Fitting joint 14/20: Cordyludae_Ouroborus_YPM_14-T9 / Cordyludae_Ouroborus_YPM_15-L1
+INFO: Fitting joint 15/20: Cordyludae_Ouroborus_YPM_15-L1 / Cordyludae_Ouroborus_YPM_16-L2
+INFO: Fitting joint 16/20: Cordyludae_Ouroborus_YPM_16-L2 / Cordyludae_Ouroborus_YPM_17-L3
+INFO: Fitting joint 17/20: Cordyludae_Ouroborus_YPM_17-L3 / Cordyludae_Ouroborus_YPM_18-L4
+INFO: Fitting joint 18/20: Cordyludae_Ouroborus_YPM_18-L4 / Cordyludae_Ouroborus_YPM_19-L5
+INFO: Fitting joint 19/20: Cordyludae_Ouroborus_YPM_19-L5 / Cordyludae_Ouroborus_YPM_20-L6
+INFO: Fitting joint 20/20: Cordyludae_Ouroborus_YPM_20-L6 / Cordyludae_Ouroborus_YPM_21-L7
+INFO: Refining the full column with the fitted joint constraints
+INFO: Checking fitted surfaces, dense penetration samples and triangle intersections
+INFO: Selecting supported poses and checking the selected column
+INFO: Selecting joint 1/20: Cordyludae_Ouroborus_YPM_01-C3__Cordyludae_Ouroborus_YPM_02-C4
+INFO: Selecting joint 2/20: Cordyludae_Ouroborus_YPM_02-C4__Cordyludae_Ouroborus_YPM_03-C5
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_02-C4__Cordyludae_Ouroborus_YPM_03-C5 (0.082921 mm; ceiling 0.06176 mm)
+INFO: Selecting joint 3/20: Cordyludae_Ouroborus_YPM_03-C5__Cordyludae_Ouroborus_YPM_04-C6
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_03-C5__Cordyludae_Ouroborus_YPM_04-C6 (0.08948 mm; ceiling 0.059847 mm)
+INFO: Selecting joint 4/20: Cordyludae_Ouroborus_YPM_04-C6__Cordyludae_Ouroborus_YPM_05-C7
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_04-C6__Cordyludae_Ouroborus_YPM_05-C7 (0.12934 mm; ceiling 0.060509 mm)
+INFO: Selecting joint 5/20: Cordyludae_Ouroborus_YPM_05-C7__Cordyludae_Ouroborus_YPM_06-T1
+INFO: Selecting joint 6/20: Cordyludae_Ouroborus_YPM_06-T1__Cordyludae_Ouroborus_YPM_07-T2
+INFO: Selecting joint 7/20: Cordyludae_Ouroborus_YPM_07-T2__Cordyludae_Ouroborus_YPM_08-T3
+INFO: Selecting joint 8/20: Cordyludae_Ouroborus_YPM_08-T3__Cordyludae_Ouroborus_YPM_09-T4
+INFO: Selecting joint 9/20: Cordyludae_Ouroborus_YPM_09-T4__Cordyludae_Ouroborus_YPM_10-T5
+INFO: Selecting joint 10/20: Cordyludae_Ouroborus_YPM_10-T5__Cordyludae_Ouroborus_YPM_11-T6
+INFO: Selecting joint 11/20: Cordyludae_Ouroborus_YPM_11-T6__Cordyludae_Ouroborus_YPM_12-T7
+INFO: Selecting joint 12/20: Cordyludae_Ouroborus_YPM_12-T7__Cordyludae_Ouroborus_YPM_13-T8
+INFO: Selecting joint 13/20: Cordyludae_Ouroborus_YPM_13-T8__Cordyludae_Ouroborus_YPM_14-T9
+INFO: Selecting joint 14/20: Cordyludae_Ouroborus_YPM_14-T9__Cordyludae_Ouroborus_YPM_15-L1
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_14-T9__Cordyludae_Ouroborus_YPM_15-L1 (0.082598 mm; ceiling 0.068145 mm)
+INFO: Selecting joint 15/20: Cordyludae_Ouroborus_YPM_15-L1__Cordyludae_Ouroborus_YPM_16-L2
+INFO: Selecting joint 16/20: Cordyludae_Ouroborus_YPM_16-L2__Cordyludae_Ouroborus_YPM_17-L3
+INFO: Selecting joint 17/20: Cordyludae_Ouroborus_YPM_17-L3__Cordyludae_Ouroborus_YPM_18-L4
+INFO: Selecting joint 18/20: Cordyludae_Ouroborus_YPM_18-L4__Cordyludae_Ouroborus_YPM_19-L5
+INFO: Selecting joint 19/20: Cordyludae_Ouroborus_YPM_19-L5__Cordyludae_Ouroborus_YPM_20-L6
+INFO: Selecting joint 20/20: Cordyludae_Ouroborus_YPM_20-L6__Cordyludae_Ouroborus_YPM_21-L7
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_20-L6__Cordyludae_Ouroborus_YPM_21-L7 (0.12519 mm; ceiling 0.06753 mm)
+INFO: Dense penetration refinement: Cordyludae_Ouroborus_YPM_20-L6__Cordyludae_Ouroborus_YPM_21-L7 (0.12708 mm; ceiling 0.06753 mm)
+INFO: {"specimen": "Cordyludae_Ouroborus_YPM", "status": "needs_review", "output": "/workspace/scratch/61a714cf80b6/rhineura_v162/final_ouroborus"}

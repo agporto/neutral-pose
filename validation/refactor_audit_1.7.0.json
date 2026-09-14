@@ -1,0 +1,431 @@
+{
+  "previous": "/home/claude/original_1.6.2",
+  "modules": {
+    "core.py": {
+      "identical": [
+        "unit",
+        "rigid",
+        "inverse",
+        "transform",
+        "validate_rigid",
+        "perturb",
+        "pose_difference",
+        "robust_residual",
+        "coordinate_system",
+        "convert_coordinates",
+        "Landmarks",
+        "read_landmarks",
+        "write_landmarks",
+        "polydata",
+        "oriented_poly",
+        "SurfaceSample",
+        "faces_of",
+        "write_precise_ply",
+        "write_vtp",
+        "write_mesh",
+        "Options",
+        "Patch",
+        "fit_sphere",
+        "make_patch",
+        "PatchPair",
+        "anatomical_roles",
+        "anatomical_scale",
+        "anatomical_frame",
+        "NeutralPlane",
+        "candidate_components",
+        "automatic_patch_specs",
+        "intersects",
+        "Candidate",
+        "optimize_joint",
+        "fit_joint",
+        "_aabb_corners",
+        "_transformed_aabb",
+        "pair_aabb",
+        "aabb_overlap",
+        "_ExactMemo",
+        "refine_column",
+        "evaluate_uncertainty",
+        "deep_merge",
+        "numeric_key",
+        "collect_specimen",
+        "process_specimen",
+        "process_root"
+      ],
+      "changed": {
+        "Mesh": [
+          "+",
+          "+    def __getstate__(self):",
+          "+        state = self.__dict__.copy()",
+          "+        del state['poly'], state['sdf']",
+          "+        return state",
+          "+",
+          "+    def __setstate__(self, state):",
+          "+        self.__dict__.update(state)",
+          "+        self.poly = polydata(self.vertices, self.faces)",
+          "+        self.sdf = vtk.vtkImplicitPolyDataDistance()",
+          "+        self.sdf.SetInput(self.poly)"
+        ],
+        "Joint": [
+          "-                coverage = np.maximum(tangent - 2.5 * target.spacing / s, 0)",
+          "+                coverage = np.maximum(tangent - COVERAGE_SLACK_SPACINGS * target.spacing / s, 0)",
+          "-            cw = opts.center_weight * center_factor * (1.0 if self.anatomical else 0.15)",
+          "+            cw = opts.center_weight * center_factor * (1.0 if self.anatomical else AUTOMATIC_CENTERING_WEIGHT_FACTOR)",
+          "-                near = np.abs(d - pair.gap_fraction * gap_factor) <= max(0.02, 2 * pair.report_tolerance_fraction)",
+          "-                facing_cut = -0.5 + min(0.3, 4 * self.noise_fraction)",
+          "+                near = np.abs(d - pair.gap_fraction * gap_factor) <= max(COVERAGE_NEAR_FRACTION, 2 * pair.report_tolerance_fraction)",
+          "+                facing_cut = COVERAGE_FACING_COSINE + min(COVERAGE_FACING_NOISE_CAP, 4 * self.noise_fraction)",
+          "-                covered = near & (tangential <= 3 * target.spacing / self.scale) & facing",
+          "+                covered = near & (tangential <= COVERAGE_TANGENTIAL_SPACINGS * target.spacing / self.scale) & facing",
+          "-                pts = np.vstack([other.vertices, other.centers, other.sample(max(2048, self.options.collision_samples), seed=911).points]) if final else other.sample(self.options.collision_samples, seed=911).points",
+          "+                pts = np.vstack([other.vertices, other.centers, other.sample(max(DENSE_PENETRATION_MIN_SAMPLES, self.options.collision_samples), seed=DENSE_PENETRATION_SEED).points]) if final else other.sample(self.options.collision_samples, seed=DENSE_PENETRATION_SEED).points"
+        ],
+        "fit_column": [
+          "-def fit_column(meshes, config, options=None):",
+          "+def fit_column(meshes, config, options=None, workers=1):",
+          "-    joints, bests, alternatives, uncertainty = ([], [], [], [])",
+          "-    for i, (a, b) in enumerate(zip(meshes[:-1], meshes[1:])):",
+          "-        LOG.info('Fitting joint %d/%d: %s / %s', i + 1, len(meshes) - 1, a.name, b.name)",
+          "-        joint = Joint(a, b, config, options, i, _config_snapshot=config_snapshot)",
+          "-        best, candidates = fit_joint(joint)",
+          "-        joints.append(joint)",
+          "+    joints = [Joint(a, b, config, options, i, _config_snapshot=config_snapshot) for i, (a, b) in enumerate(zip(meshes[:-1], meshes[1:]))]",
+          "+    bests, alternatives, uncertainty = ([], [], [])",
+          "+    for i, (best, candidates, stability) in enumerate(parallel_map(_fit_joint_task, len(joints), joints, workers)):",
+          "+        LOG.info('Fitted joint %d/%d: %s', i + 1, len(joints), joints[i].name)",
+          "-        uncertainty.append(evaluate_uncertainty(joint, best, candidates))",
+          "+        uncertainty.append(stability)"
+        ],
+        "save_result": [
+          "-        for k, pair in enumerate(joint.pairs):",
+          "+        for pair in joint.pairs:"
+        ],
+        "main": [
+          "-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)",
+          "+    parser = argparse.ArgumentParser(prog='neutral-pose', description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)",
+          "+    parser.add_argument('--version', action='version', version=f'%(prog)s {__version__}')"
+        ]
+      },
+      "new": [
+        "_fit_joint_task"
+      ]
+    },
+    "landmarks.py": {
+      "identical": [
+        "landmark_keys",
+        "reflect",
+        "angle",
+        "point_scale",
+        "valid_permutation",
+        "fit_paired_plane",
+        "discover_candidates",
+        "_layout",
+        "prepare_landmark_planes"
+      ],
+      "changed": {
+        "_assess_plane": [
+          "-    from neutral_pose_anatomy import closest_surface"
+        ]
+      },
+      "new": []
+    },
+    "anatomy.py": {
+      "identical": [
+        "closest_surface",
+        "symmetry_plane",
+        "intrinsic_symmetry_plane",
+        "mirrored_patch_overlap",
+        "choose_bilateral_contacts",
+        "infer_frames",
+        "pool_bilateral_spacing",
+        "column_diagnostics"
+      ],
+      "changed": {},
+      "new": []
+    },
+    "support.py": {
+      "identical": [
+        "contact_support",
+        "selection_reasons",
+        "refine_dense_feasibility",
+        "refresh_geometric_review"
+      ],
+      "changed": {},
+      "new": []
+    },
+    "surfaces.py": {
+      "identical": [
+        "canonical_label",
+        "surface_queries",
+        "surface_roughness",
+        "boundary_spec",
+        "landmark_support"
+      ],
+      "changed": {},
+      "new": []
+    },
+    "discovery.py": {
+      "identical": [],
+      "changed": {
+        "infer_joint": [
+          "-        if na @ (H[:3, :3] @ nb) > -0.5 or min(area_a, area_b) < 0.002 * scale ** 2:",
+          "+        if na @ (H[:3, :3] @ nb) > OPPOSING_NORMAL_COSINE or min(area_a, area_b) < MINIMUM_CONTACT_AREA_FRACTION * scale ** 2:",
+          "-    candidates = [c for c in candidates if c['area_mm2'] >= 0.08 * largest]",
+          "+    candidates = [c for c in candidates if c['area_mm2'] >= PERIPHERAL_AREA_RATIO * largest]",
+          "-    centrum = 0 if learned_model is not None else int(np.argmax(axial)) if len(candidates) >= 3 and max(axial) > 0.65 else None",
+          "+    centrum = 0 if learned_model is not None else int(np.argmax(axial)) if len(candidates) >= 3 and max(axial) > CENTRUM_AXIAL_ALIGNMENT else None",
+          "-        tolerance = min(0.005 * scale, max(1e-06 * scale, 0.25 * scatter))",
+          "+        tolerance = min(GAP_TOLERANCE_SCALE_CAP * scale, max(1e-06 * scale, GAP_TOLERANCE_SCATTER_FRACTION * scatter))",
+          "-    noise = min(0.01 * scale, float(np.median(roughness))) if roughness else 0.0",
+          "+    noise = min(NOISE_ALLOWANCE_SCALE_CAP * scale, float(np.median(roughness))) if roughness else 0.0"
+        ]
+      },
+      "new": []
+    },
+    "auto.py": {
+      "identical": [
+        "specimen_folders",
+        "safe_extract",
+        "input_files",
+        "mesh_units",
+        "infer_coordinates",
+        "preview"
+      ],
+      "changed": {
+        "prepare_specimen": [
+          "-def prepare_specimen(folder):",
+          "+def prepare_specimen(folder, workers=1):",
+          "-    for i, (a, b) in enumerate(zip(meshes[:-1], meshes[1:])):",
+          "-        LOG.info('Discovering contacts and spacing %d/%d: %s / %s', i + 1, len(meshes) - 1, a.name, b.name)",
+          "-        try:",
+          "-            definition, evidence = infer_joint(a, b, i)",
+          "-        except ValueError as error:",
+          "-            definition = {'a': a.name, 'b': b.name, 'patches': []}",
+          "-            evidence = {'a': a.name, 'b': b.name, 'patches': [], 'local_scale_mm': math.sqrt(a.scale * b.scale), 'discovery_error': str(error), 'bilateral_contact_selection': None}",
+          "+    planes_fixed = all((getattr(m, '_automatic_bilateral_plane', None) is not None for m in meshes))",
+          "+    discovery_workers = workers if planes_fixed else 1",
+          "+    if not planes_fixed and resolve_workers(workers) > 1:",
+          "+        LOG.info('Discovering contacts serially: surface symmetry planes are seeded by neighbouring joints')",
+          "+    for i, (definition, evidence) in enumerate(parallel_map(_discover_joint_task, len(meshes) - 1, meshes, discovery_workers)):",
+          "+        LOG.info('Discovered contacts and spacing %d/%d: %s / %s', i + 1, len(meshes) - 1, meshes[i].name, meshes[i + 1].name)",
+          "-    contacts.complete_contacts(meshes, config, inference, options)",
+          "+    recovery.complete_contacts(meshes, config, inference, options)"
+        ],
+        "select_supported_poses": [
+          "-def select_supported_poses(meshes, poses, report, joints):",
+          "+def select_supported_poses(meshes, poses, report, joints, workers=1):",
+          "-    for i, joint in enumerate(joints):",
+          "-        LOG.info('Selecting joint %d/%d: %s', i + 1, len(joints), joint.name)",
+          "-        contact_policy = joint._fitting_config().get('automatic_contact_policy') == contacts.POLICY",
+          "-        proposed = n.inverse(poses[i]) @ poses[i + 1]",
+          "-        entry = result['joints'][i]",
+          "-        original_metrics = joint.metrics(joint.initial, final=True)",
+          "-        reference, reference_metrics = (joint.initial, original_metrics)",
+          "-        reference_fit = None",
+          "-        if joint.neutral_plane is not None:",
+          "-            reference_fit = n.optimize_joint(joint, joint.initial, fixed_sagittal=True)",
+          "-            reference = reference_fit.transform",
+          "-            reference_metrics = joint.metrics(reference, final=True)",
+          "-        proposed_metrics = entry['metrics']",
+          "-        if contact_policy:",
+          "-            if not contacts.complete({'patches': joint.specs}):",
+          "-                raise ValueError(f'{joint.name}: incomplete anatomical neutral reference')",
+          "-            repaired, repair = support.refine_dense_feasibility(joint, proposed)",
+          "-            entry['dense_refinement'] = repair",
+          "-            if repair['accepted']:",
+          "-                entry['pre_dense_fit'] = {'transform_b_local_to_a_local': proposed.tolist(), 'metrics': proposed_metrics}",
+          "-                proposed = repaired",
+          "-                proposed_metrics = joint.metrics(proposed, final=True)",
+          "-                if not repair['converged']:",
+          "-                    entry['review_reasons'].append('dense_optimizer_not_converged')",
+          "-            entry['metrics'] = proposed_metrics",
+          "-            entry['transform_b_local_to_a_local'] = proposed.tolist()",
+          "-            entry['final_score'] = float(np.sum(joint.residual(proposed) ** 2))",
+          "-        unc = entry['uncertainty']",
+          "-        reasons = []",
+          "-        if any((unc.get(key) for key in ('ambiguous', 'sensitive', 'centering_dependent', 'poorly_identified'))):",
+          "-            reasons.append('automatic_fit_not_identified')",
+          "-        if not entry['pairwise_converged'] or 'pairwise_search_boundary_reached' in entry['review_reasons']:",
+          "-            reasons.append('automatic_fit_not_converged_within_bounds')",
+          "-        before, after = (reference_metrics['max_sampled_penetration'], proposed_metrics['max_sampled_penetration'])",
+          "-        allowance = max(joint.noise_fraction * joint.scale, 1e-06 * joint.scale)",
+          "-        if before is not None and after is not None and (after > before + allowance):",
+          "-            reasons.append('automatic_fit_increased_penetration')",
+          "-        before_coverage = np.mean([side['coverage_fraction'] for p in reference_metrics['patches'] for side in (p['a_to_b'], p['b_to_a'])])",
+          "-        after_coverage = np.mean([side['coverage_fraction'] for p in proposed_metrics['patches'] for side in (p['a_to_b'], p['b_to_a'])])",
+          "-        if after_coverage < before_coverage - 0.05:",
+          "-            reasons.append('automatic_fit_reduced_contact_coverage')",
+          "-        if contact_policy:",
+          "-            before_coverage = support.contact_support(reference_metrics)['mean']",
+          "-            after_coverage = support.contact_support(proposed_metrics)['mean']",
+          "-            converged = repair.get('converged', entry['pairwise_converged'])",
+          "-            boundary = repair.get('boundary', 'pairwise_search_boundary_reached' in entry['review_reasons'])",
+          "-            reasons = support.selection_reasons(reference_metrics, proposed_metrics, joint.penetration_tolerance * joint.scale, allowance, converged, boundary)",
+          "-            if reasons and before is not None and (before > joint.penetration_tolerance * joint.scale):",
+          "-                revised_reference, reference_repair = support.refine_dense_feasibility(joint, reference, fixed_sagittal=True)",
+          "-                entry['reference_dense_refinement'] = reference_repair",
+          "-                if reference_repair['accepted']:",
+          "-                    reference = revised_reference",
+          "-                    reference_metrics = joint.metrics(reference, final=True)",
+          "-                    before = reference_metrics['max_sampled_penetration']",
+          "-                    before_coverage = support.contact_support(reference_metrics)['mean']",
+          "-                    reasons = support.selection_reasons(reference_metrics, proposed_metrics, joint.penetration_tolerance * joint.scale, allowance, converged, boundary)",
+          "-        H = reference if reasons else proposed",
+          "-        if joint.neutral_plane is not None:",
+          "-            diagnostics = joint.neutral_plane.diagnostics(H)",
+          "-            if diagnostics['lateral_axis_misalignment_deg'] > 1e-06 or abs(diagnostics['lateral_center_offset_mm']) > 1e-08 * joint.scale:",
+          "-                raise ValueError('A proposed automatic pose violates its anatomical neutral constraint.')",
+          "+    for i, (H, entry, decision) in enumerate(parallel_map(_select_joint_task, len(joints), (joints, poses, result['joints']), workers)):",
+          "+        LOG.info('Selected joint %d/%d: %s', i + 1, len(joints), joints[i].name)",
+          "-        decision = {'a': joint.a.name, 'b': joint.b.name, 'choice': ('neutral_sagittal_reference' if joint.neutral_plane is not None else 'input_retained') if reasons else 'fitted_pose', 'reasons': reasons, 'input_max_sampled_penetration_mm': original_metrics['max_sampled_penetration'], 'reference_max_sampled_penetration_mm': before, 'proposed_max_sampled_penetration_mm': after, 'input_mean_coverage': float(np.mean([side['coverage_fraction'] for p in original_metrics['patches'] for side in (p['a_to_b'], p['b_to_a'])])), 'reference_mean_coverage': float(before_coverage), 'proposed_mean_coverage': float(after_coverage)}",
+          "-        if reference_fit is not None:",
+          "-            decision['reference'] = 'input_sagittal_angle_with_surface_fitted_in_plane_translation'",
+          "-            decision['reference_fit_converged'] = reference_fit.converged",
+          "-            decision['reference_fit_boundary'] = reference_fit.boundary",
+          "-            entry['neutral_reference_metrics'] = reference_metrics",
+          "-        entry['automatic_selection'] = decision",
+          "-        entry['input_metrics'] = original_metrics",
+          "-        entry['proposed_fit'] = {'transform_b_local_to_a_local': proposed.tolist(), 'metrics': proposed_metrics, 'review_reasons': entry['review_reasons'].copy(), 'final_score': entry['final_score']}",
+          "-        if reasons:",
+          "-            entry['transform_b_local_to_a_local'] = H.tolist()",
+          "-            entry['metrics'] = reference_metrics",
+          "-            entry['final_score'] = float(np.sum(joint.residual(H) ** 2))",
+          "-            entry['review_reasons'] = [r for r in entry['review_reasons'] if r not in {'penetration_exceeds_tolerance', 'triangle_intersections_require_review', 'poor_surface_fit', 'insufficient_surface_coverage', 'anchor_offset_exceeds_tolerance', 'global_refinement_changed_pairwise_reference'}]",
+          "-            metrics = reference_metrics",
+          "-            depth = metrics['max_sampled_penetration']",
+          "-            if depth is not None and depth > joint.penetration_tolerance * joint.scale:",
+          "-                entry['review_reasons'].append('penetration_exceeds_tolerance')",
+          "-            if metrics['intersection_detected']:",
+          "-                if not metrics['signed_distance_reliable'] or depth is None or depth > joint.penetration_tolerance * joint.scale:",
+          "-                    entry['review_reasons'].append('triangle_intersections_require_review')",
+          "-                else:",
+          "-                    metrics['contact_within_noise_tolerance'] = True",
+          "-            for p in metrics['patches']:",
+          "-                for side in (p['a_to_b'], p['b_to_a']):",
+          "-                    if side['rms_gap_error_fraction'] > joint.acceptable_surface_error:",
+          "-                        entry['review_reasons'].append('poor_surface_fit')",
+          "-                    if side['coverage_fraction'] < joint.options.minimum_coverage:",
+          "-                        entry['review_reasons'].append('insufficient_surface_coverage')",
+          "-                if not p['spherical_centrum'] and p['anchor_tangential_offset_mm'] > joint.options.centering_tolerance_fraction * joint.scale:",
+          "-                    entry['review_reasons'].append('anchor_offset_exceeds_tolerance')",
+          "-            entry['review_reasons'].append('neutral_sagittal_reference_due_to_uncertain_fit' if joint.neutral_plane is not None else 'input_pose_retained_due_to_uncertain_automatic_fit')",
+          "-            if reference_fit is not None and (not reference_fit.converged or reference_fit.boundary):",
+          "-                entry['review_reasons'].append('neutral_reference_optimizer_requires_review')",
+          "-            entry['review_reasons'] = sorted(set(entry['review_reasons']))",
+          "-            entry['status'] = 'needs_review'",
+          "-        entry['uncertainty']['reference'] = 'proposed_fit_before_automatic_selection'",
+          "-        if contact_policy:",
+          "-            decision['policy'] = contacts.POLICY",
+          "-            decision['reference_contact_support'] = support.contact_support(reference_metrics)",
+          "-            decision['proposed_contact_support'] = support.contact_support(proposed_metrics)",
+          "-            entry['uncertainty']['reference'] = 'pairwise_fit_before_global_refinement_and_selection'",
+          "-            support.refresh_geometric_review(entry, joint)",
+          "-        if joint.neutral_plane is not None:",
+          "-            entry['neutral_plane'] = joint.neutral_plane.diagnostics(H)",
+          "-            entry['anatomical_orientation_b_in_a'] = (joint.neutral_plane.fa.T @ H[:3, :3] @ joint.neutral_plane.fb).tolist()",
+          "+        result['joints'][i] = entry"
+        ],
+        "process_specimen": [
+          "-def process_specimen(folder, output, overwrite=False):",
+          "+def process_specimen(folder, output, overwrite=False, workers=1):",
+          "-    meshes, config, options, inference = prepare_specimen(folder)",
+          "+    meshes, config, options, inference = prepare_specimen(folder, workers)",
+          "-    matrices, poses, report, joints = n.fit_column(meshes, config, options)",
+          "+    matrices, poses, report, joints = n.fit_column(meshes, config, options, workers)",
+          "-    matrices, poses, report = select_supported_poses(meshes, poses, report, joints)",
+          "+    matrices, poses, report = select_supported_poses(meshes, poses, report, joints, workers)"
+        ],
+        "run": [
+          "-def run(source, output=None, overwrite=False):",
+          "+def run(source, output=None, overwrite=False, workers=1):",
+          "-            report = process_specimen(folders[0], output, overwrite)",
+          "+            report = process_specimen(folders[0], output, overwrite, workers)",
+          "-                report = process_specimen(folder, target, overwrite)",
+          "+                report = process_specimen(folder, target, overwrite, workers)"
+        ],
+        "main": [
+          "-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)",
+          "+    parser = argparse.ArgumentParser(prog='neutral-pose-auto', description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)",
+          "-    parser.add_argument('--overwrite', action='store_true')",
+          "+    parser.add_argument('--overwrite', action='store_true', help='Replace an existing result folder.')",
+          "+    parser.add_argument('--workers', default='auto', help=\"Worker processes for independent per-joint work: a number or 'auto' (all CPUs, the default). Results are identical for any value; use 1 to run serially.\")",
+          "+    parser.add_argument('--log-level', default='INFO', choices=['DEBUG', 'INFO', 'WARNING', 'ERROR'], help='Console verbosity (default: INFO).')",
+          "+    parser.add_argument('--version', action='version', version=f'%(prog)s {__version__}')",
+          "-    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')",
+          "+    logging.basicConfig(level=getattr(logging, args.log_level), format='%(levelname)s: %(message)s')",
+          "-        results = run(args.input, args.out, args.overwrite)",
+          "+        results = run(args.input, args.out, args.overwrite, resolve_workers(args.workers))"
+        ]
+      },
+      "new": [
+        "_discover_joint_task",
+        "_select_joint_task"
+      ]
+    },
+    "contacts.py": {
+      "identical": [
+        "complete",
+        "landmark_map",
+        "support_keys",
+        "learn_groups",
+        "group_index",
+        "spacing_statistics",
+        "adjust_spacing",
+        "learn_model",
+        "role_points",
+        "role_frame"
+      ],
+      "changed": {
+        "seed_patch": [
+          "-    from neutral_pose_auto import surface_queries, boundary_spec"
+        ],
+        "assign_contact_roles": [
+          "-def assign_contact_roles(distances, names, maximum_distance=0.1, minimum_margin=0.015):",
+          "+def assign_contact_roles(distances, names, maximum_distance=ROLE_IDENTITY_MAX_DISTANCE, minimum_margin=ROLE_IDENTITY_MIN_MARGIN):"
+        ],
+        "split_contact_components": [
+          "-    from neutral_pose_auto import surface_queries",
+          "-            if error <= 0.1:",
+          "+            if error <= ROLE_IDENTITY_MAX_DISTANCE:",
+          "-        accepted = [len(part) >= 3 and mesh.areas[part].sum() > 0.002 * mesh.scale ** 2 for part in parts]",
+          "+        accepted = [len(part) >= PARTITION_MIN_FACES and mesh.areas[part].sum() > PARTITION_MIN_AREA_FRACTION * mesh.scale ** 2 for part in parts]"
+        ],
+        "identify_candidates": [
+          "-    from neutral_pose_auto import surface_queries"
+        ]
+      },
+      "new": []
+    },
+    "recovery.py": {
+      "identical": [],
+      "changed": {
+        "recover_joint": [
+          "-    from neutral_pose_auto import infer_joint",
+          "-    from neutral_pose_support import contact_support, refine_dense_feasibility",
+          "-    covered = {definition[side] for definition in config['joints'] if complete(definition) for side in ('a', 'b')}",
+          "+    covered = {definition[side] for definition in config['joints'] if contacts.complete(definition) for side in ('a', 'b')}",
+          "-    frames = {m.name: known_frames[m.name] if m.name in known_frames else role_frame(m, model) for m in (a, b)}",
+          "+    frames = {m.name: known_frames[m.name] if m.name in known_frames else contacts.role_frame(m, model) for m in (a, b)}",
+          "-        seed_definition['patches'].append(dict(name=role['name'], kind=role['kind'], a=seed_patch(a, role, 'a', frames[a.name]), b=seed_patch(b, role, 'b', frames[b.name]), gap_fraction=statistics[role['kind']]['median']))",
+          "+        seed_definition['patches'].append(dict(name=role['name'], kind=role['kind'], a=contacts.seed_patch(a, role, 'a', frames[a.name]), b=contacts.seed_patch(b, role, 'b', frames[b.name]), gap_fraction=statistics[role['kind']]['median']))"
+        ],
+        "complete_contacts": [
+          "-    indices = [i for i, d in enumerate(config['joints']) if complete(d) and inference['joints'][i].get('bilateral_contact_selection') is not None]",
+          "-    statistics = spacing_statistics(config, inference, indices)",
+          "-    changes = adjust_spacing(config, inference, statistics, indices)",
+          "-    missing = [i for i, d in enumerate(config['joints']) if not complete(d)]",
+          "+    indices = [i for i, d in enumerate(config['joints']) if contacts.complete(d) and inference['joints'][i].get('bilateral_contact_selection') is not None]",
+          "+    statistics = contacts.spacing_statistics(config, inference, indices)",
+          "+    changes = contacts.adjust_spacing(config, inference, statistics, indices)",
+          "+    missing = [i for i, d in enumerate(config['joints']) if not contacts.complete(d)]",
+          "-        model = learn_model(meshes, config, inference, indices)",
+          "+        model = contacts.learn_model(meshes, config, inference, indices)",
+          "-    if not all((complete(d) for d in config['joints'])):",
+          "+    if not all((contacts.complete(d) for d in config['joints'])):",
+          "-    config['automatic_contact_policy'] = POLICY",
+          "+    config['automatic_contact_policy'] = contacts.POLICY"
+        ]
+      },
+      "new": []
+    }
+  }
+}
