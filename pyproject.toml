@@ -8,7 +8,7 @@ dynamic = ["version"]
 description = "Estimate an osteological neutral articulation of a vertebral column from segmented meshes and landmarks."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "TBD" }
+license = { text = "BSD-2" }
 authors = [{ name = "Neutral Pose contributors" }]
 keywords = ["morphometrics", "vertebrae", "3D Slicer", "rigid registration", "osteology", "VTK"]
 classifiers = [
